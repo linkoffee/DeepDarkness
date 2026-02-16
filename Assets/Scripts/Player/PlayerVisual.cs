@@ -1,28 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerVisual : MonoBehaviour
 {
-    private static readonly int IsWalking = Animator.StringToHash(IsWalkingTrigger);
-    private static readonly int IsDying = Animator.StringToHash(IsDyingTrigger);
-    private static readonly int IsAttack = Animator.StringToHash(IsAttackTrigger);
-    private static readonly int IsBlocking = Animator.StringToHash(IsBlockingTrigger);
-    private static readonly int IsTakingDamage = Animator.StringToHash(IsTakingDamageTrigger);
+    private static readonly int IsWalking = Animator.StringToHash(IsWalkingParam);
+    private static readonly int IsDying = Animator.StringToHash(IsDyingParam);
+    private static readonly int IsAttack = Animator.StringToHash(IsAttackParam);
+    private static readonly int IsBlocking = Animator.StringToHash(IsBlockingParam);
+    private static readonly int IsTakingDamage = Animator.StringToHash(IsTakingDamageParam);
+    private static readonly int MoveX = Animator.StringToHash(MoveXParam);
+    private static readonly int MoveY = Animator.StringToHash(MoveYParam);
 
-    private const string IsWalkingTrigger = "IsWalking";
-    private const string IsDyingTrigger = "IsDying";
-    private const string IsAttackTrigger = "IsAttack";
-    private const string IsBlockingTrigger = "IsBlocking";
-    private const string IsTakingDamageTrigger = "IsTakingDamage";
+    private const string IsWalkingParam = "IsWalking";
+    private const string IsDyingParam = "IsDying";
+    private const string IsAttackParam = "IsAttack";
+    private const string IsBlockingParam = "IsBlocking";
+    private const string IsTakingDamageParam = "IsTakingDamage";
+    private const string MoveXParam = "MoveX";
+    private const string MoveYParam = "MoveY";
     
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
 
     private Vector2 _lastPosition;
-    private bool _isFacingRight = true;
+    private Vector2 _moveDirection;
 
 
     private void Awake()
@@ -43,8 +48,9 @@ public class PlayerVisual : MonoBehaviour
     {
         Vector2 currentPosition = transform.position;
 
-        UpdateWalkAnimation();
-        UpdateFacingDirection();
+        _moveDirection = (currentPosition - _lastPosition).normalized;
+
+        UpdateMovementAnimation();
 
         _lastPosition = currentPosition;
     }
@@ -65,20 +71,15 @@ public class PlayerVisual : MonoBehaviour
         _animator.SetTrigger(IsBlocking);
     }
 
-    private void UpdateWalkAnimation()
+    private void UpdateMovementAnimation()
     {
-        _animator.SetBool(IsWalking, Player.Instance.IsWalking);
-    }
+        bool isMoving = Player.Instance.IsWalking;
+        _animator.SetBool(IsWalking, isMoving);
 
-    private void UpdateFacingDirection()
-    {
-        float horizontalMovement = transform.position.x - _lastPosition.x;
-
-        if (Mathf.Abs(horizontalMovement) > 0.01f)
+        if (isMoving)
         {
-            bool isShouldFacingRight = horizontalMovement > 0;
-
-            _spriteRenderer.flipX = isShouldFacingRight != _isFacingRight;
+            _animator.SetFloat(MoveX, _moveDirection.x);
+            _animator.SetFloat(MoveY, _moveDirection.y);
         }
     }
 }
