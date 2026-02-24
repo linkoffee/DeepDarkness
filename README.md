@@ -19,5 +19,6 @@ The player can find descriptions of all the commands in the **knowledge book**, 
 
 Author: [Mikhail Kopochinskiy](https://github.com/linkoffee)
 
-All assets were taken from [itch.io](https://itch.io/):\
-[pix.ollie](https://pixollie.itch.io/) | [Pixel-Poem](https://pixel-poem.itch.io/)
+All assets were taken from [itch.io](https://itch.io/):
+- `Art`: [pix.ollie](https://pixollie.itch.io/) | [Pixel-Poem](https://pixel-poem.itch.io/)
+- `Music & Sfx`: [Shononoki](https://shononoki.itch.io/)
