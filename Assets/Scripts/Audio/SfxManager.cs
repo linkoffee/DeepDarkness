@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SfxManager : MonoBehaviour
 {
-    public static SfxManager Instance;
+    public static SfxManager Instance { get; private set; }
 
     [SerializeField] private SfxLib sfxLib;
     [SerializeField] private AudioSource sfxSource;
@@ -25,9 +23,7 @@ public class SfxManager : MonoBehaviour
     public void PlaySound3D(AudioClip audioClip, Vector3 position)
     {
         if (audioClip != null)
-        {
             AudioSource.PlayClipAtPoint(audioClip, position);
-        }
     }
 
     public void PlaySound3D(string sfxName, Vector3 position)
