@@ -3,27 +3,62 @@ using UnityEngine;
 
 public class BookContent : MonoBehaviour
 {
-    [TextArea(10, 20)]
-    [SerializeField] private string content;
+    public static BookContent Instance { get; private set; }
+
     [SerializeField] private TMP_Text leftSide;
     [SerializeField] private TMP_Text rightSide;
     [SerializeField] private TMP_Text leftPagination;
     [SerializeField] private TMP_Text rightPagination;
 
+    public static BookContent FindOrCreateInstance()
+    {
+        if (Instance == null)
+        {
+            Instance = FindObjectOfType<BookContent>(true);
+
+            if (Instance != null)
+                Instance.Initialize();
+        }
+        return Instance;
+    }
+
     private void Awake()
     {
-        SetupContent();
-        UpdatePagination();
+        Instance = this;
+        Initialize();
     }
 
     private void OnValidate()
     {
         UpdatePagination();
+    }
 
-        if (leftSide.text == content)
-            return;
+    public void SetContent(string newContent)
+    {
+        BookData.Instance.SetContent(newContent);
+        LoadContentFromData();
+        ResetToFirstPage();
+    }
 
-        SetupContent();
+    public void AddContent(string additionalContent)
+    {
+        BookData.Instance.AddContent(additionalContent);
+        LoadContentFromData();
+    }
+
+    public void ClearContent()
+    {
+        BookData.Instance.ClearContent();
+        LoadContentFromData();
+        ResetToFirstPage();
+    }
+
+    public void LoadContentFromData()
+    {
+        string currentContent = BookData.Instance.GetContent();
+
+        leftSide.text = currentContent;
+        rightSide.text = currentContent;
     }
 
     public void GoToPreviousPage()
@@ -67,10 +102,18 @@ public class BookContent : MonoBehaviour
         UpdatePagination();
     }
 
-    private void SetupContent()
+    private void Initialize()
     {
-        leftSide.text = content;
-        rightSide.text = content;
+        LoadContentFromData();
+        UpdatePagination();
+    }
+
+    private void ResetToFirstPage()
+    {
+        leftSide.pageToDisplay = 1;
+        rightSide.pageToDisplay = 2;
+
+        UpdatePagination();
     }
 
     private void UpdatePagination()
