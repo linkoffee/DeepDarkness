@@ -21,4 +21,4 @@ Author: [Mikhail Kopochinskiy](https://github.com/linkoffee)
 
 All assets were taken from [itch.io](https://itch.io/):
 - `Art`: [pix.ollie](https://pixollie.itch.io/) | [Pixel-Poem](https://pixel-poem.itch.io/)
-- `Music & Sfx`: [Shononoki](https://shononoki.itch.io/)
+- `Music & Sfx`: [Shononoki](https://shononoki.itch.io/) | [Freesound](https://freesound.org/)
