@@ -38,8 +38,3 @@ public class BlockCommand : Command
 {
     public override void Execute(Player player) => player.Block();
 }
-
-public class PickUpCommand : Command
-{
-    public override void Execute(Player player) => player.PickUp();
-}

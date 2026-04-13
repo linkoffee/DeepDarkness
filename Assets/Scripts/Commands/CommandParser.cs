@@ -28,8 +28,6 @@ public static class CommandParser
                 return new AttackCommand();
             case "Knight.Block()":
                 return new BlockCommand();
-            case "Knight.PickUp()":
-                return new PickUpCommand();
             default:
                 return null;
         }
