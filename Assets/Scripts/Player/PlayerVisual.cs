@@ -21,6 +21,8 @@ public class PlayerVisual : MonoBehaviour
     private const string MoveXParam = "MoveX";
     private const string MoveYParam = "MoveY";
 
+    [SerializeField] private PlayerAttackCollider attackCollider;
+
     [Header("Target Settings")]
     [SerializeField] private float interactionRadius = 1.5f;
     [SerializeField] private List<string> targetTags = new List<string> { "Enemy", "Pickup" };
@@ -47,6 +49,8 @@ public class PlayerVisual : MonoBehaviour
     {
         Player.Instance.OnPlayerAttack += OnPlayerAttack;
         Player.Instance.OnPlayerBlock += OnPlayerBlock;
+        Player.Instance.OnPlayerTakeDamage += OnPlayerTakeDamage;
+        Player.Instance.OnPlayerDeath += OnPlayerDeath;
     }
 
     private void Update()
@@ -63,7 +67,16 @@ public class PlayerVisual : MonoBehaviour
 
     private void LateUpdate()
     {
-        UpdateSpriteFlip();
+        if (Player.Instance.IsAlive)
+            UpdateSpriteFlip();
+    }
+
+    private void OnDestroy()
+    {
+        Player.Instance.OnPlayerAttack -= OnPlayerAttack;
+        Player.Instance.OnPlayerBlock -= OnPlayerBlock;
+        Player.Instance.OnPlayerTakeDamage -= OnPlayerTakeDamage;
+        Player.Instance.OnPlayerDeath -= OnPlayerDeath;
     }
 
     private void OnDrawGizmosSelected()
@@ -78,21 +91,14 @@ public class PlayerVisual : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        Player.Instance.OnPlayerAttack -= OnPlayerAttack;
-        Player.Instance.OnPlayerBlock -= OnPlayerBlock;
-    }
+    public void ResetAttackColliderState() => attackCollider.ResetColliderState();
+    public void EnableAttackCollider() => Player.Instance.EnableAttackCollider();
+    public void DisableAttackCollider() => Player.Instance.DisableAttackCollider();
 
-    private void OnPlayerAttack(object sender, System.EventArgs e)
-    {
-        _animator.SetTrigger(IsAttack);
-    }
-
-    private void OnPlayerBlock(object sender, System.EventArgs e)
-    {
-        _animator.SetTrigger(IsBlocking);
-    }
+    private void OnPlayerAttack(object sender, System.EventArgs e) => _animator.SetTrigger(IsAttack);
+    private void OnPlayerBlock(object sender, System.EventArgs e) => _animator.SetTrigger(IsBlocking);
+    private void OnPlayerTakeDamage(object sender, System.EventArgs e) => _animator.SetTrigger(IsTakingDamage);
+    private void OnPlayerDeath(object sender, System.EventArgs e) => _animator.SetBool(IsDying, true);
 
     private void UpdateMovementAnimation()
     {
