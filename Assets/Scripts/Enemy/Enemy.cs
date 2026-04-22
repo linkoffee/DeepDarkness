@@ -5,13 +5,15 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 2;
-
+    //[SerializeField] public int maxHealth = 2;
+    [SerializeField] private EnemySO enemyData;
     [SerializeField] private Collider2D attackCollider;
 
-    [SerializeField] public int attackDamage = 1;
+    //[SerializeField] public int attackDamage = 1;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private float attackRange = 1.1f;
+
+    public EnemySO EnemyData => enemyData;
 
     public event EventHandler OnEnemyAttack;
     public event EventHandler OnEnemyTakeDamage;
@@ -39,7 +41,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        _currentHealth = maxHealth;
+        _currentHealth = enemyData.health;
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
