@@ -33,6 +33,12 @@ public class BookContent : MonoBehaviour
         UpdatePagination();
     }
 
+    private void OnEnable()
+    {
+        LoadContentFromData();
+        UpdatePagination();
+    }
+
     public void SetContent(string newContent)
     {
         BookData.Instance.SetContent(newContent);
