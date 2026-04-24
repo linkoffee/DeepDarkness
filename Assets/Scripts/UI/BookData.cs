@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BookData : MonoBehaviour
@@ -17,7 +18,9 @@ public class BookData : MonoBehaviour
         }
     }
 
-    private string content;
+    private string _content;
+
+    private HashSet<string> addedContentIds = new HashSet<string>();
 
     private void Awake()
     {
@@ -31,19 +34,31 @@ public class BookData : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public string GetContent() => content;
+    public string GetContent() => _content;
 
     public void SetContent(string newContent)
     {
-        content = newContent;
+        _content = newContent;
+        addedContentIds.Clear();
     }
 
     public void AddContent(string additionalContent)
     {
-        if (string.IsNullOrEmpty(content))
+        AddContent(additionalContent, null);
+    }
+
+    public void AddContent(string additionalContent, string contentId)
+    {
+        if (!string.IsNullOrEmpty(contentId) && addedContentIds.Contains(contentId))
+            return;
+
+        if (string.IsNullOrEmpty(_content))
             SetContent(additionalContent);
         else
-            content += "\n\n<page>" + additionalContent;
+            _content += "\n<page>" + additionalContent;
+
+        if (!string.IsNullOrEmpty(contentId))
+            addedContentIds.Add(contentId);
     }
 
     public void ClearContent()
