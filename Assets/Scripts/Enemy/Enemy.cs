@@ -3,13 +3,11 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
-    //[SerializeField] public int maxHealth = 2;
     [SerializeField] private EnemySO enemyData;
     [SerializeField] private Collider2D attackCollider;
 
-    //[SerializeField] public int attackDamage = 1;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private float attackRange = 1.1f;
 
