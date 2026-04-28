@@ -11,14 +11,13 @@ public class PlayerAttackCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy") || _hasDamagedThisAttack)
-            return;
+        if (_hasDamagedThisAttack) return;
 
-        Enemy enemy = collision.GetComponent<Enemy>();
+        IDamageable damageableObj = collision.GetComponent<IDamageable>();
 
-        if (enemy != null && enemy.IsAlive)
+        if (damageableObj != null)
         {
-            enemy.TakeDamage(Player.Instance.attackDamage);
+            damageableObj.TakeDamage(Player.Instance.attackDamage);
             _hasDamagedThisAttack = true;
         }
     }
