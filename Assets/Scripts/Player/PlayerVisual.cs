@@ -5,6 +5,12 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerVisual : MonoBehaviour
 {
+    [SerializeField] private PlayerAttackCollider attackCollider;
+
+    [Header("Target Settings")]
+    [SerializeField] private float interactionRadius = 1.5f;
+    [SerializeField] private List<string> targetTags = new List<string> { "Enemy", "Pickup", "Breakable" };
+
     private static readonly int IsWalking = Animator.StringToHash(IsWalkingParam);
     private static readonly int IsDying = Animator.StringToHash(IsDyingParam);
     private static readonly int IsAttack = Animator.StringToHash(IsAttackParam);
@@ -20,12 +26,6 @@ public class PlayerVisual : MonoBehaviour
     private const string IsTakingDamageParam = "IsTakingDamage";
     private const string MoveXParam = "MoveX";
     private const string MoveYParam = "MoveY";
-
-    [SerializeField] private PlayerAttackCollider attackCollider;
-
-    [Header("Target Settings")]
-    [SerializeField] private float interactionRadius = 1.5f;
-    [SerializeField] private List<string> targetTags = new List<string> { "Enemy", "Pickup" };
 
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
