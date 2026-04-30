@@ -95,10 +95,10 @@ public class PlayerVisual : MonoBehaviour
     public void EnableAttackCollider() => Player.Instance.EnableAttackCollider();
     public void DisableAttackCollider() => Player.Instance.DisableAttackCollider();
 
-    private void OnPlayerAttack(object sender, System.EventArgs e) => _animator.SetTrigger(IsAttack);
-    private void OnPlayerBlock(object sender, System.EventArgs e) => _animator.SetTrigger(IsBlocking);
-    private void OnPlayerTakeDamage(object sender, System.EventArgs e) => _animator.SetTrigger(IsTakingDamage);
-    private void OnPlayerDeath(object sender, System.EventArgs e) => _animator.SetBool(IsDying, true);
+    private void OnPlayerAttack() => _animator.SetTrigger(IsAttack);
+    private void OnPlayerBlock() => _animator.SetTrigger(IsBlocking);
+    private void OnPlayerTakeDamage() => _animator.SetTrigger(IsTakingDamage);
+    private void OnPlayerDeath() => _animator.SetBool(IsDying, true);
 
     private void UpdateMovementAnimation()
     {

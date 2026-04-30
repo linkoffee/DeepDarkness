@@ -44,35 +44,13 @@ public class EnemyVisual : MonoBehaviour
             UpdateSpriteFlip();
     }
 
-    public void ResetAttackColliderState()
-    {
-        attackCollider.ResetColliderState();
-    }
+    public void ResetAttackColliderState() => attackCollider.ResetColliderState();
+    public void EnableAttackCollider() => enemy.EnableAttackCollider();
+    public void DisableAttackCollider() => enemy.DisableAttackCollider();
 
-    public void EnableAttackCollider()
-    {
-        enemy.EnableAttackCollider();
-    }
-
-    public void DisableAttackCollider()
-    {
-        enemy.DisableAttackCollider();
-    }
-
-    private void OnEnemyAttack(object sender, System.EventArgs e)
-    {
-        _animator.SetTrigger(IsAttack);
-    }
-
-    private void OnEnemyTakeDamage(object sender, System.EventArgs e)
-    {
-        _animator.SetTrigger(IsTakingDamage);
-    }
-
-    private void OnEnemyDeath(object sender, System.EventArgs e)
-    {
-        _animator.SetBool(IsDying, true);
-    }
+    private void OnEnemyAttack() => _animator.SetTrigger(IsAttack);
+    private void OnEnemyTakeDamage() => _animator.SetTrigger(IsTakingDamage);
+    private void OnEnemyDeath() => _animator.SetBool(IsDying, true);
 
     private void UpdateSpriteFlip()
     {
