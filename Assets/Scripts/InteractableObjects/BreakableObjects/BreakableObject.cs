@@ -7,6 +7,9 @@ public class BreakableObject : MonoBehaviour, IDamageable
     [SerializeField] private GameObject lootPrefab;
     [SerializeField] private bool destroyOnBreak = false;
 
+    [SerializeField] private string takeDamageSfx;
+    [SerializeField] private string breakSfx;
+
     public event Action OnObjectTakeDamage;
     public event Action OnObjectBreak;
 
@@ -30,6 +33,7 @@ public class BreakableObject : MonoBehaviour, IDamageable
         currentStrength -= damage;
 
         OnObjectTakeDamage?.Invoke();
+        SfxManager.Instance.PlaySound2D(takeDamageSfx);
 
         if (currentStrength <= 0)
             Break();
@@ -43,6 +47,7 @@ public class BreakableObject : MonoBehaviour, IDamageable
         DropLoot();
 
         OnObjectBreak?.Invoke();
+        SfxManager.Instance.PlaySound2D(breakSfx);
 
         if (destroyOnBreak)
             Destroy(gameObject);

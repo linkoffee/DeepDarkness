@@ -14,10 +14,13 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private float blockCooldown = 2f;
 
-    public event EventHandler OnPlayerAttack;
-    public event EventHandler OnPlayerBlock;
-    public event EventHandler OnPlayerTakeDamage;
-    public event EventHandler OnPlayerDeath;
+    [SerializeField] private string takeDamageSfx;
+    [SerializeField] private string dieSfx;
+
+    public event Action OnPlayerAttack;
+    public event Action OnPlayerBlock;
+    public event Action OnPlayerTakeDamage;
+    public event Action OnPlayerDeath;
 
     public event Action<int> OnHealthChanged;
 
@@ -108,7 +111,9 @@ public class Player : MonoBehaviour, IDamageable
             return;
 
         CurrentHealth -= damage;
-        OnPlayerTakeDamage?.Invoke(this, EventArgs.Empty);
+
+        OnPlayerTakeDamage?.Invoke();
+        SfxManager.Instance.PlaySound2D(takeDamageSfx);
 
         if (CurrentHealth <= 0)
             Die();
@@ -117,7 +122,9 @@ public class Player : MonoBehaviour, IDamageable
     public void Die()
     {
         _isAlive = false;
-        OnPlayerDeath?.Invoke(this, EventArgs.Empty);
+
+        OnPlayerDeath?.Invoke();
+        SfxManager.Instance.PlaySound2D(dieSfx);
     }
     
     public void EnableAttackCollider() => attackCollider.enabled = true;
@@ -150,7 +157,7 @@ public class Player : MonoBehaviour, IDamageable
         _isBusy = true;
         _isAttack = true;
 
-        OnPlayerAttack?.Invoke(this, EventArgs.Empty);
+        OnPlayerAttack?.Invoke();
 
         yield return new WaitForSeconds(AttackAnimationDuration);
 
@@ -166,7 +173,7 @@ public class Player : MonoBehaviour, IDamageable
         _isBlock = true;
 
         DisableTakeDamageCollider();
-        OnPlayerBlock?.Invoke(this, EventArgs.Empty);
+        OnPlayerBlock?.Invoke();
 
         yield return new WaitForSeconds(BlockAnimationDuration);
 

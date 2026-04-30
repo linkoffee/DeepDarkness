@@ -8,14 +8,17 @@ public class Enemy : MonoBehaviour, IDamageable
     [SerializeField] private EnemySO enemyData;
     [SerializeField] private Collider2D attackCollider;
 
-    [SerializeField] private float attackCooldown = 2f;
-    [SerializeField] private float attackRange = 1.1f;
+    [SerializeField] private string takeDamageSfx;
+    [SerializeField] private string dieSfx;
+
+    private const float AttackCooldown = 2f;
+    private const float AttackRange = 1.1f;
 
     public EnemySO EnemyData => enemyData;
 
-    public event EventHandler OnEnemyAttack;
-    public event EventHandler OnEnemyTakeDamage;
-    public event EventHandler OnEnemyDeath;
+    public event Action OnEnemyAttack;
+    public event Action OnEnemyTakeDamage;
+    public event Action OnEnemyDeath;
 
     public bool IsAlive { get; private set; } = true;
     public bool IsAttack { get; private set; }
@@ -61,7 +64,7 @@ public class Enemy : MonoBehaviour, IDamageable
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.DrawWireSphere(transform.position, AttackRange);
     }
 
     public void EnableAttackCollider() => attackCollider.enabled = true;
@@ -73,7 +76,9 @@ public class Enemy : MonoBehaviour, IDamageable
             return;
 
         _currentHealth -= damage;
-        OnEnemyTakeDamage?.Invoke(this, EventArgs.Empty);
+
+        OnEnemyTakeDamage?.Invoke();
+        SfxManager.Instance.PlaySound2D(takeDamageSfx);
 
         if (_currentHealth <= 0)
             Die();
@@ -90,7 +95,8 @@ public class Enemy : MonoBehaviour, IDamageable
         _collider.enabled = false;
         DisableAttackCollider();
 
-        OnEnemyDeath?.Invoke(this, EventArgs.Empty);
+        OnEnemyDeath?.Invoke();
+        SfxManager.Instance.PlaySound2D(dieSfx);
     }
 
     private void Attack()
@@ -103,7 +109,7 @@ public class Enemy : MonoBehaviour, IDamageable
 
     private void UpdatePlayerInRangeStatus()
     {
-        _isPlayerInRange = Vector2.Distance(transform.position, PlayerTransform.position) <= attackRange;
+        _isPlayerInRange = Vector2.Distance(transform.position, PlayerTransform.position) <= AttackRange;
     }
 
     private bool CanAttack()
@@ -119,13 +125,13 @@ public class Enemy : MonoBehaviour, IDamageable
         IsAttack = true;
         _canAttack = false;
 
-        OnEnemyAttack?.Invoke(this, EventArgs.Empty);
+        OnEnemyAttack?.Invoke();
 
         yield return new WaitForSeconds(AttackAnimationDuration);
 
         IsAttack = false;
 
-        yield return new WaitForSeconds(attackCooldown);
+        yield return new WaitForSeconds(AttackCooldown);
         _canAttack = true;
     }
 }
