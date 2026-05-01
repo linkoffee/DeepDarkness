@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -17,7 +16,6 @@ public class Terminal : MonoBehaviour
     private Command _currentCommand = null;
 
     private bool _isExecuting = false;
-
 
     enum LogOutputType
     {
@@ -99,7 +97,7 @@ public class Terminal : MonoBehaviour
         }
     }
 
-    private void OnPlayerDeath(object sender, EventArgs e)
+    private void OnPlayerDeath()
     {
         inputField.interactable = false;
         knowledgeBookButton.interactable = false;
