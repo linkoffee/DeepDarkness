@@ -18,12 +18,15 @@ public class PlayerInventory : MonoBehaviour
     private void OnEnable()
     {
         Key.OnKeyPickedUp += OnKeyPickedUp;
+        Door.OnDoorOpened += OnKeyUsed;
     }
 
     private void OnDisable()
     {
         Key.OnKeyPickedUp -= OnKeyPickedUp;
+        Door.OnDoorOpened -= OnKeyUsed;
     }
 
     private void OnKeyPickedUp() => _hasKey = true;
+    private void OnKeyUsed() => _hasKey = false;
 }
