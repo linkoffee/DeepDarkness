@@ -3,8 +3,6 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class DoorVisual : MonoBehaviour
 {
-    [SerializeField] private Door door;
-
     private static readonly int IsOpen = Animator.StringToHash(IsOpenParam);
     private const string IsOpenParam = "IsOpen";
 
@@ -17,12 +15,12 @@ public class DoorVisual : MonoBehaviour
 
     private void Start()
     {
-        door.OnDoorOpened += OnDoorOpened;
+        Door.OnDoorOpened += OnDoorOpened;
     }
 
     private void OnDestroy()
     {
-        door.OnDoorOpened -= OnDoorOpened;
+        Door.OnDoorOpened -= OnDoorOpened;
     }
 
     private void OnDoorOpened() => _animator.SetBool(IsOpen, true);
