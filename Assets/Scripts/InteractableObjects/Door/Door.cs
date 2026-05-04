@@ -6,7 +6,7 @@ public class Door : MonoBehaviour
 {
     [SerializeField] private float _interactionRange = 1f;
 
-    public event Action OnDoorOpened;
+    public static event Action OnDoorOpened;
 
     private string _openSound = "DoorOpen";
 
