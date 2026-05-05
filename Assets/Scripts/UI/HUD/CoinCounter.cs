@@ -1,6 +1,13 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+
+[Serializable]
+public struct CoinData
+{
+    public int totalCoins;
+}
 
 [RequireComponent(typeof(CanvasGroup))]
 public class CoinCounter : MonoBehaviour
@@ -11,6 +18,8 @@ public class CoinCounter : MonoBehaviour
 
     private const float PulseTextSizeMultiplier = 1.5f;
     private const float PulseTextAnimationDuration = 0.2f;
+
+    private const string SaveKey = "CoinData";
 
     private float _fadeDuration = 0.5f;
     private float _displayDuration = 4f;
@@ -28,6 +37,7 @@ public class CoinCounter : MonoBehaviour
 
     private void Start()
     {
+        LoadData();
         UpdateCoinDisplay();
     }
 
@@ -39,6 +49,17 @@ public class CoinCounter : MonoBehaviour
     private void OnDisable()
     {
         Coin.OnAnyCoinCollected -= OnCoinCollected;
+    }
+
+    public static void SaveData()
+    {
+        CoinData data = new CoinData { totalCoins = _totalCoins };
+        SaveManager.Save(SaveKey, data);
+    }
+    private void LoadData()
+    {
+        CoinData data = SaveManager.Load<CoinData>(SaveKey);
+        _totalCoins = data.totalCoins;
     }
 
     private void Show()
