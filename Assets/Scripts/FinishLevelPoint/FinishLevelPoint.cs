@@ -6,6 +6,8 @@ public class FinishLevelPoint : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            CoinCounter.SaveData();
+            LevelProgressManager.Instance.UnlockNextLevel();
             LevelLoader.Instance.LoadNextLevel();
         }
     }
