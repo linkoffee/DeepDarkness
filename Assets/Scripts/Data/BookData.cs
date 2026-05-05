@@ -1,5 +1,13 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+
+[Serializable]
+public struct BookContentData
+{
+    public string content;
+    public string contentIds;
+}
 
 public class BookData : MonoBehaviour
 {
@@ -18,8 +26,9 @@ public class BookData : MonoBehaviour
         }
     }
 
-    private string _content;
+    private const string SaveKey = "BookContentData";
 
+    private string _content;
     private HashSet<string> addedContentIds = new HashSet<string>();
 
     private void Awake()
@@ -32,6 +41,7 @@ public class BookData : MonoBehaviour
         
         _instance = this;
         DontDestroyOnLoad(gameObject);
+        LoadData();
     }
 
     public string GetContent() => _content;
@@ -40,6 +50,7 @@ public class BookData : MonoBehaviour
     {
         _content = newContent;
         addedContentIds.Clear();
+        SaveData();
     }
 
     public void AddContent(string additionalContent)
@@ -59,10 +70,39 @@ public class BookData : MonoBehaviour
 
         if (!string.IsNullOrEmpty(contentId))
             addedContentIds.Add(contentId);
+
+        SaveData();
     }
 
     public void ClearContent()
     {
         SetContent("");
+    }
+
+    private void SaveData()
+    {
+        BookContentData data = new BookContentData
+        {
+            content = _content,
+            contentIds = string.Join(",", addedContentIds)
+        };
+        SaveManager.Save(SaveKey, data);
+    }
+
+    private void LoadData()
+    {
+        BookContentData data = SaveManager.Load<BookContentData>(SaveKey);
+        _content = data.content ?? "";
+
+        if (!string.IsNullOrEmpty(data.contentIds))
+        {
+            addedContentIds.Clear();
+            string[] ids = data.contentIds.Split(",");
+            foreach (string id in ids)
+            {
+                if (!string.IsNullOrEmpty(id))
+                    addedContentIds.Add(id);
+            }
+        }
     }
 }
