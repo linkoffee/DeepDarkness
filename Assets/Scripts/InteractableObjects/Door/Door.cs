@@ -6,7 +6,8 @@ public class Door : MonoBehaviour
 {
     [SerializeField] private float _interactionRange = 1f;
 
-    public static event Action OnDoorOpened;
+    public static event Action OnAnyDoorOpened;
+    public event Action OnDoorOpened;
 
     private string _openSound = "DoorOpen";
 
@@ -41,6 +42,8 @@ public class Door : MonoBehaviour
             _collider.enabled = false;
 
         OnDoorOpened?.Invoke();
+        OnAnyDoorOpened?.Invoke();
+
         SfxManager.Instance.PlaySound2D(_openSound);
     }
 }
