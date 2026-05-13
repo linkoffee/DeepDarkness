@@ -1,22 +1,28 @@
 using System;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Key : MonoBehaviour, IPickable
 {
-    private string _pickUpSound = "KeyPickUp";
+    [SerializeField] private Sprite icon;
+    [SerializeField] private string pickupSound = "KeyPickUp";
 
-    public static event Action OnKeyPickedUp; 
+    public Sprite GetIcon() => icon;
+
+    public static event Action OnKeyPickedUp;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
-            PickUpKey();
+        if (collision.CompareTag("Player") && !PlayerInventory.Instance.HasKey)
+        {
+            PickupEvent.NotifyPickup(GetIcon());
+            OnPickup();
+        }
     }
 
-    private void PickUpKey()
+    public void OnPickup()
     {
         OnKeyPickedUp?.Invoke();
-        SfxManager.Instance.PlaySound2D(_pickUpSound);
+        SfxManager.Instance.PlaySound2D(pickupSound);
 
         Destroy(gameObject);
     }
