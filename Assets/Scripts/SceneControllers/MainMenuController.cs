@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenuController : BaseSceneController
 {
+    [SerializeField] private bool playMusic = true;
+
     protected override void PlayMusicTrack()
     {
-        MusicManager.Instance.PlayMusic("MainMenu");
+        if (playMusic)
+            MusicManager.Instance.PlayMusic("MainMenu");
     }
 }
