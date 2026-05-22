@@ -125,6 +125,8 @@ public class Player : MonoBehaviour, IDamageable
 
         OnPlayerDeath?.Invoke();
         SfxManager.Instance.PlaySound2D(dieSfx);
+
+        StopAllCoroutines();
     }
     
     public void EnableAttackCollider() => attackCollider.enabled = true;
