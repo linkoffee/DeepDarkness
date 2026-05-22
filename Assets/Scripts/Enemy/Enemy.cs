@@ -8,11 +8,12 @@ public class Enemy : MonoBehaviour, IDamageable
     [SerializeField] private EnemySO enemyData;
     [SerializeField] private Collider2D attackCollider;
 
+    [SerializeField] private float attackRange = 1.1f;
+
     [SerializeField] private string takeDamageSfx;
     [SerializeField] private string dieSfx;
 
     private const float AttackCooldown = 2f;
-    private const float AttackRange = 1.1f;
 
     public EnemySO EnemyData => enemyData;
 
@@ -64,7 +65,7 @@ public class Enemy : MonoBehaviour, IDamageable
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, AttackRange);
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 
     public void EnableAttackCollider() => attackCollider.enabled = true;
@@ -109,7 +110,7 @@ public class Enemy : MonoBehaviour, IDamageable
 
     private void UpdatePlayerInRangeStatus()
     {
-        _isPlayerInRange = Vector2.Distance(transform.position, PlayerTransform.position) <= AttackRange;
+        _isPlayerInRange = Vector2.Distance(transform.position, PlayerTransform.position) <= attackRange;
     }
 
     private bool CanAttack()
