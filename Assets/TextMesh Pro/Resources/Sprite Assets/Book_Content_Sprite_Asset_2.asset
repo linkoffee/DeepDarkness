@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!21 &-7369216897681388096
+--- !u!21 &-6522583941586766839
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 1
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8f505c86608068c4f91e9e340d58632c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3a92cd17732adc41af3ef65d70ba00a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -53,8 +53,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
   m_Name: Book_Content_Sprite_Asset_2
   m_EditorClassIdentifier: 
-  hashCode: -110400245
-  material: {fileID: -7369216897681388096}
+  hashCode: 1096132859
+  material: {fileID: -6522583941586766839}
   materialHashCode: 0
   m_Version: 1.1.0
   m_FaceInfo:
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_StrikethroughOffset: 0
     m_StrikethroughThickness: 0
     m_TabWidth: 0
-  spriteSheet: {fileID: 2800000, guid: 8f505c86608068c4f91e9e340d58632c, type: 3}
+  spriteSheet: {fileID: 2800000, guid: b3a92cd17732adc41af3ef65d70ba00a, type: 3}
   m_SpriteCharacterTable:
   - m_ElementType: 2
     m_Unicode: 65534
@@ -93,8 +93,46 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: SlimePortrait
     m_HashCode: 1645215465
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: AshtorPortrait
+    m_HashCode: 367705060
   m_SpriteGlyphTable:
   - m_Index: 0
+    m_Metrics:
+      m_Width: 256
+      m_Height: 256
+      m_HorizontalBearingX: 35
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 256
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 256
+      m_Width: 256
+      m_Height: 256
+    m_Scale: 15
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -882154492, guid: b3a92cd17732adc41af3ef65d70ba00a, type: 3}
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 256
+      m_Height: 256
+      m_HorizontalBearingX: 35
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 256
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 256
+      m_Width: 256
+      m_Height: 256
+    m_Scale: 15
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 240779208, guid: b3a92cd17732adc41af3ef65d70ba00a, type: 3}
+  - m_Index: 2
     m_Metrics:
       m_Width: 256
       m_Height: 256
@@ -109,22 +147,6 @@ MonoBehaviour:
     m_Scale: 15
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
-    sprite: {fileID: -1961649042, guid: 8f505c86608068c4f91e9e340d58632c, type: 3}
-  - m_Index: 1
-    m_Metrics:
-      m_Width: 256
-      m_Height: 256
-      m_HorizontalBearingX: 35
-      m_HorizontalBearingY: 0
-      m_HorizontalAdvance: 256
-    m_GlyphRect:
-      m_X: 256
-      m_Y: 0
-      m_Width: 256
-      m_Height: 256
-    m_Scale: 15
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
-    sprite: {fileID: 133160554, guid: 8f505c86608068c4f91e9e340d58632c, type: 3}
+    sprite: {fileID: -1384201907, guid: b3a92cd17732adc41af3ef65d70ba00a, type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []

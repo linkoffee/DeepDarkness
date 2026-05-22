@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f505c86608068c4f91e9e340d58632c
+guid: b3a92cd17732adc41af3ef65d70ba00a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Book_Content_Sprite_Asset_2_0
+      name: Book_Content_Sprite_Asset_2(1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a618d5c0820c4c9e14032170d079d
+      internalID: -882154492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_Content_Sprite_Asset_2(1)_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e42fdd187efe540b0ca63d5ddc6da3
+      internalID: 240779208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_Content_Sprite_Asset_2(1)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -137,29 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca74045de48ce674db46a48256f0311a
-      internalID: -1961649042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Book_Content_Sprite_Asset_2_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da9e841b8fbcbff4fa8d245e0cf145d7
-      internalID: 133160554
+      spriteID: d81db97065c474143a87f53fddd4e3ca
+      internalID: -1384201907
       vertices: []
       indices: 
       edges: []
@@ -175,8 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Book_Content_Sprite_Asset_2_0: -1961649042
-      Book_Content_Sprite_Asset_2_1: 133160554
+      Book_Content_Sprite_Asset_2(1)_0: -882154492
+      Book_Content_Sprite_Asset_2(1)_1: 240779208
+      Book_Content_Sprite_Asset_2(1)_2: -1384201907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
