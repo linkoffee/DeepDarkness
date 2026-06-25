@@ -39,6 +39,7 @@ public class Terminal : MonoBehaviour
             executeButton.interactable = true;
 
         player.OnPlayerDeath += OnPlayerDeath;
+        player.OnPlayerRanIntoObstacle += OnPlayerRanIntoObstacle;
     }
 
     private void Update()
@@ -53,13 +54,14 @@ public class Terminal : MonoBehaviour
     private void OnDestroy()
     {
         player.OnPlayerDeath -= OnPlayerDeath;
+        player.OnPlayerRanIntoObstacle -= OnPlayerRanIntoObstacle;
     }
 
     public void ExecuteAll()
     {
         if (_isExecuting)
         {
-            AddLogOutput("Script is already executing!", LogOutputType.Warning);
+            AddLogOutput("> Script is already executing!", LogOutputType.Warning);
             return;
         }
 
@@ -79,10 +81,17 @@ public class Terminal : MonoBehaviour
 
                 Command command = CommandParser.Parse(trimmedCommand);
 
-                if (command != null)
+                if (command == null)
+                {
+                    AddLogOutput($"> Skipped: {trimmedCommand} - Unknown command", LogOutputType.Warning);
+                    continue;
+                }
+
+                string errMsg;
+                if (IsCommandValid(command, out errMsg))
                     _commands.Enqueue(command);
                 else
-                    AddLogOutput($"Skipped: {trimmedCommand} - Unknown command", LogOutputType.Warning);
+                    AddLogOutput($"> Skipped: {trimmedCommand} - {errMsg}", LogOutputType.Warning);
             }
 
             if (_commands.Count > 0)
@@ -92,9 +101,18 @@ public class Terminal : MonoBehaviour
             }
             else
             {
-                AddLogOutput("No valid commands found!", LogOutputType.Error);
+                AddLogOutput("> No valid commands found!", LogOutputType.Error);
             }
         }
+    }
+
+    private bool IsCommandValid(Command command, out string errMsg)
+    {
+        if (command is MoveCommand moveCommand)
+            return moveCommand.IsValid(out errMsg);
+
+        errMsg = null;
+        return true;
     }
 
     private void OnPlayerDeath()
@@ -105,6 +123,18 @@ public class Terminal : MonoBehaviour
 
         AddLogOutput("> ==========================");
         AddLogOutput("> The knight's soul left him");
+        AddLogOutput("> Try to start all over again...");
+    }
+
+    private void OnPlayerRanIntoObstacle()
+    {
+        inputField.interactable = false;
+        knowledgeBookButton.interactable = false;
+        executeButton.interactable = false;
+
+        AddLogOutput("> ============================================");
+        AddLogOutput("> The knight hit his head hard on the obstacle");
+        AddLogOutput("> He can no longer continue on his way");
         AddLogOutput("> Try to start all over again...");
     }
 
