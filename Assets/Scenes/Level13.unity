@@ -672,7 +672,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.727304
+      m_AnimationSpeed: 6.2651157
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: -2, z: 0}
@@ -683,7 +683,7 @@ Tilemap:
       - {fileID: -63615362, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1212824405, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1924030527, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.409064
+      m_AnimationSpeed: 5.816945
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -12, y: 6, z: 0}
@@ -694,7 +694,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.476439
+      m_AnimationSpeed: 6.163927
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -10, y: 6, z: 0}
@@ -705,7 +705,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.9619136
+      m_AnimationSpeed: 6.53119
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -2366,7 +2366,7 @@ GameObject:
   - component: {fileID: 1492829536}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

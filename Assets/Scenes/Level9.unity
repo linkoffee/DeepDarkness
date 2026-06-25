@@ -380,7 +380,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.802424
+      m_AnimationSpeed: 5.9291935
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: -1, z: 0}
@@ -391,7 +391,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.3970256
+      m_AnimationSpeed: 6.044939
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 1492829536}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
