@@ -17,10 +17,13 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private string takeDamageSfx;
     [SerializeField] private string dieSfx;
 
+    [SerializeField] private string[] blockMovementTags = { "Wall", "Enemy" };
+
     public event Action OnPlayerAttack;
     public event Action OnPlayerBlock;
     public event Action OnPlayerTakeDamage;
     public event Action OnPlayerDeath;
+    public event Action OnPlayerRanIntoObstacle;
 
     public event Action<int> OnHealthChanged;
 
@@ -56,6 +59,8 @@ public class Player : MonoBehaviour, IDamageable
     private bool _isAttack;
     private bool _isBlock;
 
+    private Coroutine _currentMoveCoroutine;
+
     private void Awake()
     {
         Instance = this;
@@ -69,28 +74,68 @@ public class Player : MonoBehaviour, IDamageable
         CurrentHealth = maxHealth;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (IsBlockMovementTag(collision.gameObject.tag))
+        {
+            StopMovement();
+            OnPlayerRanIntoObstacle.Invoke();
+        }
+    }
+
+    private bool IsBlockMovementTag(string tag)
+    {
+        foreach (string blockingTag in blockMovementTags)
+        {
+            if (tag == blockingTag)
+                return true;
+        }
+        return false;
+    }
+
+    private void StopMovement()
+    {
+        if (_currentMoveCoroutine != null)
+        {
+            StopCoroutine(_currentMoveCoroutine);
+            _currentMoveCoroutine = null;
+        }
+
+        _isWalking = false;
+        _isBusy = false;
+    }
+
     public void MoveUp(int stepCount)
     {
         if (!_isBusy && _isAlive)
-            StartCoroutine(Move(Vector3.up * stepCount));
+            StartMoveCoroutine(Vector3.up * stepCount);
     }
-    
+
     public void MoveDown(int stepCount)
     {
         if (!_isBusy && _isAlive)
-            StartCoroutine(Move(Vector3.down * stepCount));
+            StartMoveCoroutine(Vector3.down * stepCount);
     }
-    
+
     public void MoveLeft(int stepCount)
     {
         if (!_isBusy && _isAlive)
-            StartCoroutine(Move(Vector3.left * stepCount));
+            StartMoveCoroutine(Vector3.left * stepCount);
     }
-    
+
     public void MoveRight(int stepCount)
     {
         if (!_isBusy && _isAlive)
-            StartCoroutine(Move(Vector3.right * stepCount));
+            StartMoveCoroutine(Vector3.right * stepCount);
+    }
+
+    private void StartMoveCoroutine(Vector3 direction)
+    {
+        if (_currentMoveCoroutine != null)
+        {
+            StopCoroutine(_currentMoveCoroutine);
+        }
+        _currentMoveCoroutine = StartCoroutine(Move(direction));
     }
 
     public void Attack()
@@ -127,8 +172,10 @@ public class Player : MonoBehaviour, IDamageable
         SfxManager.Instance.PlaySound2D(dieSfx);
 
         StopAllCoroutines();
+        _isBusy = false;
+        _isWalking = false;
     }
-    
+
     public void EnableAttackCollider() => attackCollider.enabled = true;
     public void DisableAttackCollider() => attackCollider.enabled = false;
 
@@ -137,21 +184,53 @@ public class Player : MonoBehaviour, IDamageable
 
     private IEnumerator Move(Vector3 direction)
     {
-        Vector3 targetPosition = transform.position + direction;
-        
+        Vector3 startPosition = transform.position;
+        Vector3 targetPosition = startPosition + direction;
+
         _isBusy = true;
         _isWalking = true;
 
         while (Vector3.Distance(transform.position, targetPosition) > 0.01f)
         {
-            transform.position = Vector3.MoveTowards(
+            if (!_isWalking)
+                break;
+
+            Vector3 newPosition = Vector3.MoveTowards(
                 transform.position, targetPosition, movingSpeed * Time.deltaTime
             );
+
+            if (CheckCollisionAtPosition(newPosition))
+            {
+                transform.position = startPosition;
+                _isWalking = false;
+                _isBusy = false;
+                _currentMoveCoroutine = null;
+                yield break;
+            }
+
+            transform.position = newPosition;
             yield return null;
         }
 
         _isWalking = false;
         _isBusy = false;
+        _currentMoveCoroutine = null;
+    }
+
+    private bool CheckCollisionAtPosition(Vector3 position)
+    {
+        Collider2D[] colliders = Physics2D.OverlapPointAll(position);
+
+        foreach (Collider2D collider in colliders)
+        {
+            if (collider.gameObject == gameObject)
+                continue;
+
+            if (IsBlockMovementTag(collider.gameObject.tag))
+                return true;
+        }
+
+        return false;
     }
 
     private IEnumerator PerformAttack()
