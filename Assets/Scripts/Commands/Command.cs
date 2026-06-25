@@ -8,6 +8,9 @@ public class MoveCommand : Command
     private readonly string _direction;
     private readonly int _stepCount;
 
+    private const int MinStepCount = 1;
+    private const int MaxStepCount = 32;
+
     public string Direction => _direction;
     public int StepCount => _stepCount;
 
@@ -26,6 +29,23 @@ public class MoveCommand : Command
             case "left": player.MoveLeft(_stepCount); break;
             case "right": player.MoveRight(_stepCount); break;
         }
+    }
+
+    public bool IsValid(out string errMsg)
+    {
+        if (_stepCount < MinStepCount)
+        {
+            errMsg = $"Step count must be at least {MinStepCount}";
+            return false;
+        }
+        else if (_stepCount > MaxStepCount)
+        {
+            errMsg = $"Step count cannot exceed {MaxStepCount}";
+            return false;
+        }
+
+        errMsg = null;
+        return true;
     }
 }
 
