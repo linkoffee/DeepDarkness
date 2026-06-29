@@ -31,6 +31,7 @@ public class LevelControllerEditor : Editor
         {
             EditorGUI.indentLevel++;
             controller.storytellingText = EditorGUILayout.TextArea(controller.storytellingText, GUILayout.Height(100));
+            controller.storytellingTranslationName = EditorGUILayout.TextField("Translation Name (Localize)", controller.storytellingTranslationName);
             EditorGUI.indentLevel--;
         }
 
@@ -45,6 +46,7 @@ public class LevelControllerEditor : Editor
         {
             EditorGUI.indentLevel++;
             controller.notificationText = EditorGUILayout.TextArea(controller.notificationText, GUILayout.Height(50));
+            controller.notificationTranslationName = EditorGUILayout.TextField("Translation Name (Localize)", controller.notificationTranslationName);
             controller.notificationDuration = EditorGUILayout.FloatField("Duration", controller.notificationDuration);
             controller.notificationSound = EditorGUILayout.TextField("Notification Sound", controller.notificationSound);
             EditorGUI.indentLevel--;
@@ -60,7 +62,8 @@ public class LevelControllerEditor : Editor
         if (controller.enableKnowledgeUpdate)
         {
             EditorGUI.indentLevel++;
-            controller.contentToAdd = EditorGUILayout.TextArea(controller.contentToAdd, GUILayout.Height(100));
+            controller.bookContentToAdd = EditorGUILayout.TextArea(controller.bookContentToAdd, GUILayout.Height(100));
+            controller.bookContentTranslationName = EditorGUILayout.TextField("Translation Name (Localize)", controller.bookContentTranslationName);
             EditorGUI.indentLevel--;
         }
 
