@@ -442,7 +442,7 @@ Tilemap:
       - {fileID: -63615362, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1212824405, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1924030527, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.3680396
+      m_AnimationSpeed: 6.9955497
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 5, z: 0}
@@ -453,7 +453,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.709616
+      m_AnimationSpeed: 5.7693577
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: 5, z: 0}
@@ -464,7 +464,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.0147214
+      m_AnimationSpeed: 5.1252713
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -1, y: 5, z: 0}
@@ -475,7 +475,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.577424
+      m_AnimationSpeed: 6.7045712
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -716,6 +716,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &269239215
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1001 &289546368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,12 +1053,15 @@ MonoBehaviour:
   storytellingText: "The mazes keep getting harder to face,\r\nHow easy to lose your
     way in this place.\n<page>Find that one path, so narrow and right,\r\nJust don't
     get lost \u2014 hold on to the light..."
+  storytellingTranslationName: 
   enableNotifications: 0
   notificationText: 
+  notificationTranslationName: 
   notificationDuration: 3
   notificationSound: DefaultNotification
   enableKnowledgeUpdate: 0
-  contentToAdd: 
+  bookContentToAdd: 
+  bookContentTranslationName: 
 --- !u!1001 &488702834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5440,3 +5500,4 @@ SceneRoots:
   - {fileID: 446870036}
   - {fileID: 1435026458}
   - {fileID: 626393643}
+  - {fileID: 269239215}

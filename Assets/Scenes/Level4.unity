@@ -170,10 +170,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1743696101422179510, guid: a078f2d8495adb243b9a51dc59c2c487, type: 3}
-      propertyPath: collisionLayerMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 1892953421607716686, guid: a078f2d8495adb243b9a51dc59c2c487, type: 3}
       propertyPath: m_Name
       value: Player
@@ -355,7 +351,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.3924837
+      m_AnimationSpeed: 6.7946067
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -660,27 +656,30 @@ MonoBehaviour:
   storytellingText: "The sound grew louder\u2026 what ahead could be?\r\nThe crunch
     of bones, the clang of steel \u2014 no way to turn and flee.\n<page>He looked
     at fear \u2014 the brave sir knight,\r\nFor there was nowhere left to hide..."
+  storytellingTranslationName: storytellingLevel4Text
   enableNotifications: 1
   notificationText: <color=green>A new entry has been added to <sprite="KnowledgeBookClosed"
     name="KnowledgeBookClosed">
+  notificationTranslationName: newEntryNotificationText
   notificationDuration: 3
   notificationSound: NewEntryNotification
   enableKnowledgeUpdate: 1
-  contentToAdd: "<style=\"h2\">How to attack?</style>\n\n<sprite name=\"GuideAttack\">\n\n<page><size=0.7em><align=center>\xAB
+  bookContentToAdd: "<style=\"h2\">How to attack?</style>\r\n\r\n<sprite name=\"GuideAttack\">\r\n\r\n<page><size=0.7em><align=center>\xAB
     One, two, three, four, five, six, seven,\r\nI will crush all foes, by heaven!
-    \xBB</align>\n\nEnter the following commands in the terminal to crush the enemy
-    in your path.\n\n<style=\"Command\"><color=black>Knight</color>.Attack()</style>\n\n<page><style=\"h2\">How
-    to block?</style>\n\n<sprite name=\"GuideBlock\">\n\n<page><size=0.7em><align=center>\xAB
+    \xBB</align>\r\n\r\nEnter the following commands in the terminal to crush the
+    enemy in your path.\r\n\r\n<style=\"Command\"><color=black>Knight</color>.Attack()</style>\r\n\r\n<page><style=\"h2\">How
+    to block?</style>\r\n\r\n<sprite name=\"GuideBlock\">\r\n\r\n<page><size=0.7em><align=center>\xAB
     I need no shield \u2014 that useless stuff,\r\nWith my own blade, I'll block
-    enough! \xBB</align>\n\nEnter the following commands in the terminal to repel
-    an enemy attack.\n\n<style=\"Command\"><color=black>Knight</color>.Block()</style>\n\n<page><style=\"h1\">Dungearium</style>\n\n<style=\"h4\">Description
-    of the creatures that live down here (very dangerous)</style>\n\n<size=0.7em><align=center>\xAB
+    enough! \xBB</align>\r\n\r\nEnter the following commands in the terminal to repel
+    an enemy attack.\r\n\r\n<style=\"Command\"><color=black>Knight</color>.Block()</style>\r\n\r\n<page><style=\"h1\">Dungearium</style>\r\n\r\n<style=\"h4\">Description
+    of the creatures that live down here (very dangerous)</style>\r\n\r\n<size=0.7em><align=center>\xAB
     All kinds of beasts dwell down below,\r\nNo guests they expected, that's for
     sure.\r\nDangerous monsters have lived here along,\r\nI won't be their dinner
-    \u2014 I`m not tasty at all! \xBB</align>\n\n<page>\n<br>\n<br>\n<br>\n<style=\"h4\">Go
-    to next page -></style>\n\n<page><style=\"h2\">{skeleton_name}</style>\n\n<sprite
-    name=\"SkeletonPortrait\">\n\n<page>\n<style=\"h3\">Health: <style=\"Health\">{skeleton_health}</style></style>\n<style=\"h3\">Damage:
-    <style=\"Damage\">{skeleton_damage}</style></style>\n\n<size=1em>{skeleton_desc}</size>"
+    \u2014 I`m not tasty at all! \xBB</align>\r\n\r\n<page>\r\n<br>\r\n<br>\r\n<br>\r\n<style=\"h4\">Go
+    to next page -></style>\r\n\r\n<page><style=\"h2\">{skeleton_name}</style>\r\n\r\n<sprite
+    name=\"SkeletonPortrait\">\r\n\r\n<page>\r\n<style=\"h3\">Health: <style=\"Health\">{skeleton_health}</style></style>\r\n<style=\"h3\">Damage:
+    <style=\"Damage\">{skeleton_damage}</style></style>\r\n\r\n<size=1em>{skeleton_desc}</size>"
+  bookContentTranslationName: bookContentLevel4Text
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +817,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &694012051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1001 &1456374427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2714,3 +2770,4 @@ SceneRoots:
   - {fileID: 476026990}
   - {fileID: 2118308407}
   - {fileID: 356603574}
+  - {fileID: 694012051}

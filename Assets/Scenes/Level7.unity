@@ -544,7 +544,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.5690117
+      m_AnimationSpeed: 6.1040306
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: -1, z: 0}
@@ -555,7 +555,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.7629533
+      m_AnimationSpeed: 5.904155
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: -1, z: 0}
@@ -566,7 +566,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.1558046
+      m_AnimationSpeed: 5.164863
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: -1, z: 0}
@@ -577,7 +577,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.7014694
+      m_AnimationSpeed: 5.9752064
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: 5, z: 0}
@@ -588,7 +588,7 @@ Tilemap:
       - {fileID: -63615362, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1212824405, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1924030527, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.504362
+      m_AnimationSpeed: 6.7385154
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -1116,12 +1116,15 @@ MonoBehaviour:
   storytellingText: "The mazes keep getting harder to face,\r\nHow easy to lose your
     way in this place.\n<page>Find that one path, so narrow and right,\r\nJust don't
     get lost \u2014 hold on to the light..."
+  storytellingTranslationName: 
   enableNotifications: 0
   notificationText: 
+  notificationTranslationName: 
   notificationDuration: 3
   notificationSound: DefaultNotification
   enableKnowledgeUpdate: 0
-  contentToAdd: 
+  bookContentToAdd: 
+  bookContentTranslationName: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1542,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8351666443136725604, guid: e951d15e55a9ca6448fa9b1d98be00a8, type: 3}
   m_PrefabInstance: {fileID: 1173809212}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1345117477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1001 &1375654192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5294,3 +5354,4 @@ SceneRoots:
   - {fileID: 446870036}
   - {fileID: 1435026458}
   - {fileID: 626393643}
+  - {fileID: 1345117477}

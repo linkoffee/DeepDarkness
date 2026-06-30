@@ -432,7 +432,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.314442
+      m_AnimationSpeed: 5.9644175
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: -1, z: 0}
@@ -443,7 +443,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.6064954
+      m_AnimationSpeed: 5.1607065
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -8, y: 1, z: 0}
@@ -454,7 +454,7 @@ Tilemap:
       - {fileID: -63615362, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1212824405, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1924030527, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.605428
+      m_AnimationSpeed: 5.15557
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -962,12 +962,15 @@ MonoBehaviour:
   storytellingText: "The mazes keep getting harder to face,\r\nHow easy to lose your
     way in this place.\n<page>Find that one path, so narrow and right,\r\nJust don't
     get lost \u2014 hold on to the light..."
+  storytellingTranslationName: storytellingLevel6Text
   enableNotifications: 0
   notificationText: 
+  notificationTranslationName: 
   notificationDuration: 3
   notificationSound: DefaultNotification
   enableKnowledgeUpdate: 0
-  contentToAdd: 
+  bookContentToAdd: 
+  bookContentTranslationName: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,6 +5087,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8351666443136725604, guid: e951d15e55a9ca6448fa9b1d98be00a8, type: 3}
   m_PrefabInstance: {fileID: 1917406465}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2077546410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1 &2118308405
 GameObject:
   m_ObjectHideFlags: 0
@@ -5143,3 +5203,4 @@ SceneRoots:
   - {fileID: 476026990}
   - {fileID: 2118308407}
   - {fileID: 446870036}
+  - {fileID: 2077546410}

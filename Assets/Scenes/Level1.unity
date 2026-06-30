@@ -651,31 +651,34 @@ MonoBehaviour:
 
     He''ll
     have to break through darkness for light to begin...'
+  storytellingTranslationName: storytellingLevel1Text
   enableNotifications: 1
   notificationText: <color=green>A new entry has been added to <sprite="KnowledgeBookClosed"
     name="KnowledgeBookClosed">
+  notificationTranslationName: newEntryNotificationText
   notificationDuration: 3
   notificationSound: NewEntryNotification
   enableKnowledgeUpdate: 1
-  contentToAdd: "<style=\"h1\">The Book of Knowledge</style>\n\n\n\n<style=\"h3\">Written
-    by:</style>\n\n<u><align=center>Sir Vant the Rhymeless</align></u>\n\n<page><size=0.8em><align=center>\xAB
+  bookContentToAdd: "<style=\"h1\">The Book of Knowledge</style>\r\n\r\n\r\n\r\n<style=\"h3\">Written
+    by:</style>\r\n\r\n<u><align=center>Sir Vant the Rhymeless</align></u>\r\n\r\n<page><size=0.8em><align=center>\xAB
     Entombed in darkness, without light,\r\nNo savior comes to claim the fight,\r\nOh
-    Lord, why did you bring me here,\r\nTo drown in sorrow, pain, and fear? \xBB</align>\n\nGot
-    paper, ink \u2014 I'm safe and sound,\nAnd now a rhyme must be found...\n\n<sprite
-    name=\"BookAndInk\">\n\n<page><style=\"h2\">Terminal Guide</style>\n\n<sprite=\"TerminalGuide\"
-    name=\"TerminalGuide\">\n\n<page><size=0.8em>The terminal is the game's main
+    Lord, why did you bring me here,\r\nTo drown in sorrow, pain, and fear? \xBB</align>\r\n\r\nGot
+    paper, ink \u2014 I'm safe and sound,\r\nAnd now a rhyme must be found...\r\n\r\n<sprite
+    name=\"BookAndInk\">\r\n\r\n<page><style=\"h2\">Terminal Guide</style>\r\n\r\n<sprite=\"TerminalGuide\"
+    name=\"TerminalGuide\">\r\n\r\n<page><size=0.8em>The terminal is the game's main
     tool. It allows you to make the knight perform certain actions, restart a level
-    if something goes wrong, and even open the book you're currently reading.\n\nWrite
+    if something goes wrong, and even open the book you're currently reading.\r\n\r\nWrite
     your code in the <u><b>Code Area</b></u>, then run it by clicking the <u><b>Run
     Commands</b></u> button. You'll see errors, warnings, and information in the
     <b><u>Output Area</b></u>. If anything goes wrong, don't hesitate to click the
-    <b><u>Restart Level</b></u> button. \n</size>\n\n<page><style=\"h2\">How to move?</style>\n\n\n<sprite
-    name=\"GuideMoveUp\"><sprite name=\"GuideMoveRight\">\n<sprite name=\"GuideMoveLeft\"><sprite
-    name=\"GuideMoveDown\">\n\n<page><size=0.7em><align=center>\xAB We always must
-    be moving towards something, you will see,\r\nFor without it, we're stuck, and
-    we will not become free... \xBB</align>\n\nEnter the following commands in the
-    terminal to see how the knight moves.\n<#001891>Steps</color> are integer values,
-    such as <#001891>1, 2, 3, 5, 10.</color>\n\n<style=\"Command\"><color=black>Knight</color>.MoveUp(<#001891>steps</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveRight(<#001891>steps</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveLeft(<#001891>steps</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveDown(<#001891>steps</color>)</style>"
+    <b><u>Restart Level</b></u> button. \r\n</size>\r\n\r\n<page><style=\"h2\">How
+    to move?</style>\r\n\r\n\r\n<sprite name=\"GuideMoveUp\"><sprite name=\"GuideMoveRight\">\r\n<sprite
+    name=\"GuideMoveLeft\"><sprite name=\"GuideMoveDown\">\r\n\r\n<page><size=0.7em><align=center>\xAB
+    We always must be moving towards something, you will see,\r\nFor without it,
+    we're stuck, and we will not become free... \xBB</align>\r\n\r\nEnter the following
+    commands in the terminal to see how the knight moves.\r\n<#001891>Steps</color>
+    are integer values, such as <#001891>1, 2, 3, 5, 10.</color>\r\n\r\n<style=\"Command\"><color=black>Knight</color>.MoveUp(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveRight(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveLeft(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveDown(<#001891>steps</color>)</style>"
+  bookContentTranslationName: bookContentLevel1Text
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,6 +1718,63 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 1492829530}
+--- !u!1001 &1620092570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1 &1662728015
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,3 +2627,4 @@ SceneRoots:
   - {fileID: 496159225}
   - {fileID: 2118308407}
   - {fileID: 758503496}
+  - {fileID: 1620092570}

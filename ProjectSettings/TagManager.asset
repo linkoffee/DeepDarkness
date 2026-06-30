@@ -8,6 +8,7 @@ TagManager:
   - Pickup
   - Breakable
   - Wall
+  - UI.LevelTransition
   layers:
   - Default
   - TransparentFX

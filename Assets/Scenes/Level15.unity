@@ -583,7 +583,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.142789
+      m_AnimationSpeed: 6.5043755
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: -3, z: 0}
@@ -594,7 +594,7 @@ Tilemap:
       - {fileID: -63615362, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1212824405, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1924030527, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 6.2765326
+      m_AnimationSpeed: 6.801738
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: -3, z: 0}
@@ -605,7 +605,7 @@ Tilemap:
       - {fileID: -1950697228, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1459721918, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: -1854367610, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.111375
+      m_AnimationSpeed: 5.2157435
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -908,6 +908,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4983024999134911984, guid: 5e4675862004f9144901b18edaf7c236, type: 3}
   m_PrefabInstance: {fileID: 244499620}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &316022624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1001 &380377437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1081,28 +1138,16 @@ MonoBehaviour:
   enableStorytelling: 0
   storytellingText: "A slimy thing, a fetid smell,\r\nTakes any form, a lying shell.\n<page>One
     snap \u2014 no echo and no yell\r\nYou're meat. You're done, sir, farewell."
+  storytellingTranslationName: 
   enableNotifications: 0
   notificationText: <color=green>A new entry has been added to <sprite="KnowledgeBookClosed"
     name="KnowledgeBookClosed">
+  notificationTranslationName: 
   notificationDuration: 3
   notificationSound: NewEntryNotification
   enableKnowledgeUpdate: 0
-  contentToAdd: '<style="h2">{slime_name}</style>
-
-
-    <sprite="Book_Content_Sprite_Asset_2"
-    name="SlimePortrait">
-
-
-    <page>
-
-    <style="h3">Health: <style="Health">{slime_health}</style></style>
-
-    <style="h3">Damage:
-    <style="Damage">{slime_damage}</style></style>
-
-
-    <size=1em>{slime_desc}</size>'
+  bookContentToAdd: 
+  bookContentTranslationName: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7693,3 +7738,4 @@ SceneRoots:
   - {fileID: 1015137006}
   - {fileID: 108488758}
   - {fileID: 626393643}
+  - {fileID: 316022624}

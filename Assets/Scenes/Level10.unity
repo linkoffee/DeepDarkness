@@ -174,10 +174,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1892953421607716686, guid: a078f2d8495adb243b9a51dc59c2c487, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -510,7 +506,7 @@ Tilemap:
       - {fileID: -1709934247, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1108099567, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
       - {fileID: 1915165221, guid: 4afa40eb5d3072943acd982d5bed47f1, type: 3}
-      m_AnimationSpeed: 5.094394
+      m_AnimationSpeed: 6.4352884
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -901,27 +897,16 @@ MonoBehaviour:
 
     Red-eyed
     bloodsucker standing on your way.'
+  storytellingTranslationName: 
   enableNotifications: 0
   notificationText: <color=green>A new entry has been added to <sprite="KnowledgeBookClosed"
     name="KnowledgeBookClosed">
+  notificationTranslationName: 
   notificationDuration: 3
   notificationSound: NewEntryNotification
   enableKnowledgeUpdate: 0
-  contentToAdd: '<style="h2">{vampire_name}</style>
-
-
-    <sprite name="VampirePortrait">
-
-
-    <page>
-
-    <style="h3">Health:
-    <style="Health">{vampire_health}</style></style>
-
-    <style="h3">Damage: <style="Damage">{vampire_damage}</style></style>
-
-
-    <size=1em>{vampire_desc}</size>'
+  bookContentToAdd: 
+  bookContentTranslationName: 
 --- !u!1001 &480973634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1697,6 +1682,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8351666443136725604, guid: e951d15e55a9ca6448fa9b1d98be00a8, type: 3}
   m_PrefabInstance: {fileID: 1259822578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1315353778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102862987864506140, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_Name
+      value: Localizations
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467622604386458961, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2012aff64ad58784eaa8270f818059e5, type: 3}
 --- !u!1001 &1330311188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3392,24 +3434,8 @@ PrefabInstance:
       value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 2690583936700062174, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
-      propertyPath: m_Size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2690583936700062174, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
       propertyPath: m_Value
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224955716859885193, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224955716859885193, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224955716859885193, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6932336873060486107, guid: 076c5e38ca79e0b42be198882a81ce0a, type: 3}
       propertyPath: m_Name
@@ -4615,3 +4641,4 @@ SceneRoots:
   - {fileID: 524997778}
   - {fileID: 1444234622}
   - {fileID: 626393643}
+  - {fileID: 1315353778}
