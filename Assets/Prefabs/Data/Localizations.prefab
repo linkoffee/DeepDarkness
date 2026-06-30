@@ -1,0 +1,3695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102862987864506140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6467622604386458961}
+  - component: {fileID: 662292721775487901}
+  m_Layer: 0
+  m_Name: Localizations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6467622604386458961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102862987864506140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4012943417847141888}
+  - {fileID: 8872152029941783722}
+  - {fileID: 6688753799534774445}
+  - {fileID: 5945027780215532341}
+  - {fileID: 6129741010216521759}
+  - {fileID: 4229559929168526334}
+  - {fileID: 1779379813596356229}
+  - {fileID: 5701860543774793378}
+  - {fileID: 4393830844942536919}
+  - {fileID: 8052638779303296266}
+  - {fileID: 2550015025328301422}
+  - {fileID: 1536227343261883808}
+  - {fileID: 8019074093383737682}
+  - {fileID: 8882209406806386287}
+  - {fileID: 2492623001149248891}
+  - {fileID: 3529711225256151319}
+  - {fileID: 59916844904021447}
+  - {fileID: 2838365117587585518}
+  - {fileID: 930255703797571810}
+  - {fileID: 396728296024207330}
+  - {fileID: 5072713525064728114}
+  - {fileID: 1861458566099911243}
+  - {fileID: 5062125193385680562}
+  - {fileID: 4115702924411053761}
+  - {fileID: 6857322010456367233}
+  - {fileID: 6675605941771480056}
+  - {fileID: 4742006158827015291}
+  - {fileID: 7667932394596014685}
+  - {fileID: 5625695909613092827}
+  - {fileID: 9037188891060104899}
+  - {fileID: 3638454594585639726}
+  - {fileID: 3671417744009786175}
+  - {fileID: 4587520606996939198}
+  - {fileID: 2881096298582614910}
+  - {fileID: 7596510199491797650}
+  - {fileID: 4825827306163599810}
+  - {fileID: 225593315801184577}
+  - {fileID: 3810568665808819628}
+  - {fileID: 8302601667247859259}
+  - {fileID: 5643347070350537774}
+  - {fileID: 1816336846139533380}
+  - {fileID: 2758145876860725603}
+  - {fileID: 5376219661716154374}
+  - {fileID: 4918104637260565877}
+  - {fileID: 6143288209695620562}
+  - {fileID: 1164645840287968122}
+  - {fileID: 7958525100050769035}
+  - {fileID: 5553139237401801855}
+  - {fileID: 3711528004309370200}
+  - {fileID: 488604735760136605}
+  - {fileID: 7221850086309357167}
+  - {fileID: 801482020660090424}
+  - {fileID: 9217065653794316881}
+  - {fileID: 3615978314081112587}
+  - {fileID: 179488989462324243}
+  - {fileID: 7474346344976218721}
+  - {fileID: 3618808766765329212}
+  - {fileID: 6462765582480456419}
+  - {fileID: 7086012727723887514}
+  - {fileID: 1004349804911021917}
+  - {fileID: 3623365835951453624}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &662292721775487901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102862987864506140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLanguage: Russian
+  detectLanguage: 1
+  defaultLanguage: English
+  saveLoad: 1
+  prefabs: []
+--- !u!1 &114177206163875093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5553139237401801855}
+  - component: {fileID: 6718105103912199872}
+  m_Layer: 0
+  m_Name: TerminalUnknownCommand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5553139237401801855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114177206163875093}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6718105103912199872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114177206163875093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> Skipped: {0} - Unknown command'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> \u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u0435\u043C: {0} -
+      \u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u0430\u044F \u043A\u043E\u043C\u0430\u043D\u0434\u0430"
+    Object: {fileID: 0}
+--- !u!1 &118757386390973134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2758145876860725603}
+  - component: {fileID: 7115482436504095952}
+  m_Layer: 0
+  m_Name: theEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2758145876860725603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118757386390973134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7115482436504095952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118757386390973134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: The End
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041A\u043E\u043D\u0435\u0446"
+    Object: {fileID: 0}
+--- !u!1 &155660195606265328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5376219661716154374}
+  - component: {fileID: 705962899249025456}
+  m_Layer: 0
+  m_Name: yesOption
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5376219661716154374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155660195606265328}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705962899249025456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155660195606265328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Yes
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0414\u0430"
+    Object: {fileID: 0}
+--- !u!1 &400484421732518059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536227343261883808}
+  - component: {fileID: 5968187153740918009}
+  m_Layer: 0
+  m_Name: selectLevelLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1536227343261883808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400484421732518059}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5968187153740918009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400484421732518059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Select Level
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+    Object: {fileID: 0}
+--- !u!1 &502771140408639105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5625695909613092827}
+  - component: {fileID: 8461137266021280857}
+  m_Layer: 0
+  m_Name: storytellingLevel6Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5625695909613092827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502771140408639105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8461137266021280857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502771140408639105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The mazes keep getting harder to face,\r\nHow easy to lose your way in
+      this place.\n<page>Find that one path, so narrow and right,\r\nJust don't get
+      lost \u2014 hold on to the light..."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u0441\u0451 \u0442\u0440\u0443\u0434\u043D\u0435\u0435 \u043B\u0430\u0431\u0438\u0440\u0438\u043D\u0442,
+      \u0432\u0441\u0451 \u043E\u043F\u0430\u0441\u043D\u0435\u0439 \u043F\u0443\u0442\u044C,\r\n\u041A\u0430\u043A
+      \u043B\u0435\u0433\u043A\u043E \u0437\u0434\u0435\u0441\u044C \u0441\u0431\u0438\u0442\u044C\u0441\u044F,
+      \u043D\u0435 \u0442\u0443\u0434\u0430 \u0441\u0432\u0435\u0440\u043D\u0443\u0442\u044C.\r\n<page>\u041E\u0442\u044B\u0449\u0438
+      \u0442\u0440\u043E\u043F\u0438\u043D\u043A\u0443 \u2014 \u0443\u0437\u043A\u0443\u044E,
+      \u043A\u0430\u043A \u043D\u0438\u0442\u044C,\n\u0418 \u043F\u043E \u043D\u0435\u0439
+      \u0434\u0430\u043B\u044C\u0448\u0435 \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C
+      \u043F\u0440\u043E\u0439\u0442\u0438..."
+    Object: {fileID: 0}
+--- !u!1 &575279976003927383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225593315801184577}
+  - component: {fileID: 3880653316374166280}
+  m_Layer: 0
+  m_Name: storytellingLevel20Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225593315801184577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575279976003927383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3880653316374166280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575279976003927383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Oh god! That's Ashtor, demon lord, \nYou cannot pass, there is no way...\n<page>Turn
+      back now while you can afford,\r\nOr he will end you here today."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041E \u0431\u043E\u0433\u0438, \u042D\u0448\u0442\u043E\u0440, \u0434\u0435\u043C\u043E\u043D-\u043B\u043E\u0440\u0434,\n\u0422\u0435\u0431\u0435
+      \u0443\u0436 \u0442\u043E\u0447\u043D\u043E \u0437\u0434\u0435\u0441\u044C
+      \u0435\u0433\u043E \u043D\u0435 \u043E\u0434\u043E\u043B\u0435\u0442\u044C...\n<page>\u041E\u043D
+      \u043F\u044C\u0451\u0442 \u043D\u0430\u0434\u0435\u0436\u0434\u044B, \u0434\u044B\u0448\u0438\u0442
+      \u043C\u0440\u0430\u0447\u043D\u043E\u0439 \u0442\u044C\u043C\u043E\u0439,\n\u0411\u0435\u0433\u0438
+      \u0441\u043A\u043E\u0440\u0435\u0435 \u043D\u0430\u0443\u0442\u0435\u043A,
+      \u0442\u0435\u0431\u0435 \u043D\u0435 \u0443\u0446\u0435\u043B\u0435\u0442\u044C."
+    Object: {fileID: 0}
+--- !u!1 &751873509885083989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9037188891060104899}
+  - component: {fileID: 2316385907043035469}
+  m_Layer: 0
+  m_Name: storytellingLevel9Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9037188891060104899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751873509885083989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2316385907043035469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751873509885083989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'A hungry gaze, fangs out like sabers,
+
+      He smells your scent from
+      miles away.
+
+      <page>No deadlier beast in this world''s layers,
+
+      Red-eyed
+      bloodsucker standing on your way.'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0413\u043E\u043B\u043E\u0434\u043D\u044B\u0439 \u0432\u0437\u0433\u043B\u044F\u0434,
+      \u043A\u043B\u044B\u043A\u0438 \u2014 \u043A\u0430\u043A \u0441\u0430\u0431\u043B\u0438,\r\n\u0422\u0432\u043E\u0439
+      \u0437\u0430\u043F\u0430\u0445 \u0447\u0443\u0435\u0442 \u0437\u0430 \u0432\u0435\u0440\u0441\u0442\u0443.\r\n<page>\u041D\u0435\u0442
+      \u0442\u0432\u0430\u0440\u0438 \u0437\u043B\u0435\u0439 \u0432\u043E \u0442\u044C\u043C\u0435
+      \u043F\u043E\u0434\u0437\u0435\u043C\u043D\u043E\u0439,\r\n\u0427\u0435\u043C
+      \u043A\u0440\u043E\u0432\u043E\u043F\u0438\u0439\u0446\u0430, \u0432\u0441\u0442\u0430\u0432\u0448\u0438\u0439
+      \u043D\u0430 \u0442\u0440\u043E\u043F\u0443."
+    Object: {fileID: 0}
+--- !u!1 &812828073943706446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779379813596356229}
+  - component: {fileID: 8930287099181940645}
+  m_Layer: 0
+  m_Name: menuResumeBtnText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779379813596356229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812828073943706446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8930287099181940645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812828073943706446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Resume
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+    Object: {fileID: 0}
+--- !u!1 &940938376847332743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5062125193385680562}
+  - component: {fileID: 8225922123845063673}
+  m_Layer: 0
+  m_Name: vampireEnemyName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5062125193385680562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940938376847332743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8225922123845063673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940938376847332743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Vampire
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u0430\u043C\u043F\u0438\u0440"
+    Object: {fileID: 0}
+--- !u!1 &947690390085028008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6857322010456367233}
+  - component: {fileID: 6079357923556254073}
+  m_Layer: 0
+  m_Name: gnashwingEnemyName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6857322010456367233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947690390085028008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6079357923556254073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947690390085028008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Gnashwing
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u043A\u0440\u0435\u0436\u0435\u0442\u0443\u043D"
+    Object: {fileID: 0}
+--- !u!1 &1113182201631964106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6688753799534774445}
+  - component: {fileID: 8804869074973182049}
+  m_Layer: 0
+  m_Name: terminalPlaceholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6688753799534774445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113182201631964106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8804869074973182049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113182201631964106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Write your solution here...
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u0432\u0430\u0448\u0435
+      \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0437\u0434\u0435\u0441\u044C..."
+    Object: {fileID: 0}
+--- !u!1 &1186624070529336173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7596510199491797650}
+  - component: {fileID: 7525360746522184433}
+  m_Layer: 0
+  m_Name: bookContentLevel17Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7596510199491797650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186624070529336173}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7525360746522184433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186624070529336173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '<style="h2">{gnashwing_name}</style>
+
+
+
+      <sprite="Book_Content_Sprite_Asset_2"
+      name="GnashwingPortrait">
+
+
+
+      <page>
+
+      <style="h3">Health: <style="Health">{gnashwing_health}</style></style>
+
+      <style="h3">Damage:
+      <style="Damage">{gnashwing_damage}</style></style>
+
+
+
+      <size=1em>{gnashwing_desc}</size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h2\">{gnashwing_name}</style>\r\n\r\n<sprite=\"Book_Content_Sprite_Asset_2\"
+      name=\"GnashwingPortrait\">\r\n\r\n<page>\r\n<style=\"h3\">\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435:
+      <style=\"Health\">{gnashwing_health}</style></style>\r\n<style=\"h3\">\u0423\u0440\u043E\u043D:
+      <style=\"Damage\">{gnashwing_damage}</style></style>\r\n\r\n<size=1em>{gnashwing_desc}</size>"
+    Object: {fileID: 0}
+--- !u!1 &1256838727060420908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59916844904021447}
+  - component: {fileID: 646380366877644078}
+  m_Layer: 0
+  m_Name: storytellingLevel4Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59916844904021447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256838727060420908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &646380366877644078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256838727060420908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The sound grew louder\u2026 what ahead could be?\r\nThe crunch of bones,
+      the clang of steel \u2014 no way to turn and flee.\n<page>He looked at fear
+      \u2014 the brave sir knight,\r\nFor there was nowhere left to hide..."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u0441\u0451 \u0433\u0440\u043E\u043C\u0447\u0435 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B\u0441\u044F
+      \u0437\u0432\u0443\u043A\u2026 \u0447\u0442\u043E \u0442\u0430\u043C, \u0432\u043E
+      \u043C\u0433\u043B\u0435?\r\n\u041C\u0435\u0442\u0430\u043B\u0430 \u0437\u0432\u043E\u043D\u043A\u0438\u0439
+      \u043B\u044F\u0437\u0433 \u0438 \u0433\u0440\u0443\u0431\u044B\u0439 \u0445\u0440\u0443\u0441\u0442
+      \u043A\u043E\u0441\u0442\u0435\u0439.\n<page>\u0410 \u043E\u043D \u043B\u0438\u0448\u044C
+      \u0432 \u043E\u0447\u0438 \u0441\u0442\u0440\u0430\u0445\u0443 \u0433\u0440\u043E\u0437\u043D\u043E
+      \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u043B,\n\u0418 \u0441\u0436\u0430\u043B
+      \u0447\u0442\u043E \u0431\u044B\u043B\u043E \u0441\u0438\u043B \u043E\u043D
+      \u043C\u0435\u0447 \u0440\u0443\u043A\u043E\u0439 \u0441\u0432\u043E\u0435\u0439..."
+    Object: {fileID: 0}
+--- !u!1 &1277434587266010644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4918104637260565877}
+  - component: {fileID: 268196419064697909}
+  m_Layer: 0
+  m_Name: noOption
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918104637260565877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277434587266010644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &268196419064697909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277434587266010644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: No
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041D\u0435\u0442"
+    Object: {fileID: 0}
+--- !u!1 &1743810942729200685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3615978314081112587}
+  - component: {fileID: 5545616501386598444}
+  m_Layer: 0
+  m_Name: TerminalStatusAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3615978314081112587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743810942729200685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5545616501386598444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743810942729200685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Attack! The enemy will be crushed!
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412 \u0430\u0442\u0430\u043A\u0443! \u0412\u0440\u0430\u0433 \u0431\u0443\u0434\u0435\u0442
+      \u043F\u043E\u0432\u0435\u0440\u0436\u0435\u043D!"
+    Object: {fileID: 0}
+--- !u!1 &1845796334975920250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3638454594585639726}
+  - component: {fileID: 6660113095358885021}
+  m_Layer: 0
+  m_Name: bookContentLevel9Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3638454594585639726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845796334975920250}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6660113095358885021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845796334975920250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '<style="h2">{vampire_name}</style>
+
+
+
+      <sprite name="VampirePortrait">
+
+
+
+      <page>
+
+      <style="h3">Health:
+      <style="Health">{vampire_health}</style></style>
+
+      <style="h3">Damage:
+      <style="Damage">{vampire_damage}</style></style>
+
+
+
+      <size=1em>{vampire_desc}</size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h2\">{vampire_name}</style>\n\n\n<sprite name=\"VampirePortrait\">\n\n\n<page>\n<style=\"h3\">\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435:
+      <style=\"Health\">{vampire_health}</style></style>\n<style=\"h3\">\u0423\u0440\u043E\u043D:
+      <style=\"Damage\">{vampire_damage}</style></style>\n\n\n<size=1em>{vampire_desc}</size>"
+    Object: {fileID: 0}
+--- !u!1 &2433153738315714877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816336846139533380}
+  - component: {fileID: 8736178762066604911}
+  m_Layer: 0
+  m_Name: finalStoryText3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816336846139533380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433153738315714877}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8736178762066604911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433153738315714877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: At night he still dreams that he never got out of there alive
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041F\u043E \u043D\u043E\u0447\u0430\u043C \u0435\u043C\u0443 \u0434\u043E
+      \u0441\u0438\u0445 \u043F\u043E\u0440 \u0441\u043D\u0438\u0442\u0441\u044F,
+      \u0431\u0443\u0434\u0442\u043E \u043E\u043D \u043D\u0435 \u0432\u044B\u0431\u0440\u0430\u043B\u0441\u044F
+      \u043E\u0442\u0442\u0443\u0434\u0430 \u0436\u0438\u0432\u044B\u043C"
+    Object: {fileID: 0}
+--- !u!1 &2661595549585717140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5643347070350537774}
+  - component: {fileID: 2004199342398812631}
+  m_Layer: 0
+  m_Name: finalStoryText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5643347070350537774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2661595549585717140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004199342398812631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2661595549585717140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: This misadventure could easily have cost him his life, so he decided to
+      retire from campaigning once and for all and hang up his longsword
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u042D\u0442\u043E \u0437\u043B\u043E\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+      \u0435\u0434\u0432\u0430-\u043B\u0438 \u043D\u0435 \u0441\u0442\u043E\u0438\u043B\u043E
+      \u0435\u043C\u0443 \u0436\u0438\u0437\u043D\u0438. \u041E\u043D \u043F\u043E\u043A\u043B\u044F\u043B\u0441\u044F
+      \u0441\u0435\u0431\u0435, \u0447\u0442\u043E \u0431\u043E\u043B\u044C\u0448\u0435
+      \u043D\u0435 \u0441\u0442\u0430\u043D\u0435\u0442 \u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
+      \u043F\u043E \u043C\u0438\u0440\u0443, \u0438 \u043F\u043E\u0432\u0435\u0441\u0438\u043B
+      \u0441\u0432\u043E\u0439 \u0434\u043B\u0438\u043D\u043D\u044B\u0439 \u043C\u0435\u0447
+      \u043D\u0430 \u0433\u0432\u043E\u0437\u0434\u044C"
+    Object: {fileID: 0}
+--- !u!1 &2771871214203923893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3529711225256151319}
+  - component: {fileID: 7397156065779748836}
+  m_Layer: 0
+  m_Name: storytellingLevel2Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3529711225256151319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2771871214203923893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7397156065779748836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2771871214203923893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The deeper he treads, the more dreadful the dark,
+
+      Where will his
+      fate lead him, what is the mark?'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0427\u0435\u043C \u0434\u0430\u043B\u044C\u0448\u0435 \u0432\u043E \u0442\u044C\u043C\u0443,
+      \u0442\u0435\u043C \u0443\u0436\u0430\u0441\u043D\u0435\u0439 \u043E\u043D\u0430,\n\u041A\u0443\u0434\u0430
+      \u0436 \u0437\u0430\u0432\u0435\u0434\u0451\u0442 \u0442\u0435\u0431\u044F
+      \u0442\u0432\u043E\u044F \u0441\u0443\u0434\u044C\u0431\u0430?"
+    Object: {fileID: 0}
+--- !u!1 &3563622830690037456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6462765582480456419}
+  - component: {fileID: 5764367407051334748}
+  m_Layer: 0
+  m_Name: DirectionUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6462765582480456419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563622830690037456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5764367407051334748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563622830690037456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: up
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0432\u0432\u0435\u0440\u0445"
+    Object: {fileID: 0}
+--- !u!1 &3639271600596762078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3711528004309370200}
+  - component: {fileID: 1598270029737701193}
+  m_Layer: 0
+  m_Name: TerminalInvalidCommand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3711528004309370200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639271600596762078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598270029737701193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639271600596762078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> Skipped: {0} - {1}'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> \u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u0435\u043C: {0} -
+      {1}"
+    Object: {fileID: 0}
+--- !u!1 &3780276337126537502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861458566099911243}
+  - component: {fileID: 1290142571120459774}
+  m_Layer: 0
+  m_Name: skeletonEnemyDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1861458566099911243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780276337126537502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290142571120459774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780276337126537502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A rattling pile of bones. The main inhabitant of the local fauna
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0413\u0440\u0443\u0434\u0430 \u043A\u043E\u0441\u0442\u0435\u0439. \u0413\u043B\u0430\u0432\u043D\u044B\u0439
+      \u043E\u0431\u0438\u0442\u0430\u0442\u0435\u043B\u044C \u043C\u0435\u0441\u0442\u043D\u043E\u0439
+      \u0444\u0430\u0443\u043D\u044B"
+    Object: {fileID: 0}
+--- !u!1 &4022931251634617380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2492623001149248891}
+  - component: {fileID: 3146979361932859075}
+  m_Layer: 0
+  m_Name: bookContentLevel1Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2492623001149248891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022931251634617380}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3146979361932859075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022931251634617380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "<style=\"h1\">The Book of Knowledge</style>\r\n\r\n\r\n\r\n<style=\"h3\">Written
+      by:</style>\r\n\r\n<u><align=center>Sir Vant the Rhymeless</align></u>\r\n\r\n<page><size=0.8em><align=center>\xAB
+      Entombed in darkness, without light,\r\nNo savior comes to claim the fight,\r\nOh
+      Lord, why did you bring me here,\r\nTo drown in sorrow, pain, and fear? \xBB</align>\r\n\r\nGot
+      paper, ink \u2014 I'm safe and sound,\r\nAnd now a rhyme must be found...\r\n\r\n<sprite
+      name=\"BookAndInk\">\r\n\r\n<page><style=\"h2\">Terminal Guide</style>\r\n\r\n<sprite=\"TerminalGuide\"
+      name=\"TerminalGuide\">\r\n\r\n<page><size=0.8em>The terminal is the game's
+      main tool. It allows you to make the knight perform certain actions, restart
+      a level if something goes wrong, and even open the book you're currently reading.\r\n\r\nWrite
+      your code in the <u><b>Code Area</b></u>, then run it by clicking the <u><b>Run
+      Commands</b></u> button. You'll see errors, warnings, and information in the
+      <b><u>Output Area</b></u>. If anything goes wrong, don't hesitate to click
+      the <b><u>Restart Level</b></u> button. \r\n</size>\r\n\r\n<page><style=\"h2\">How
+      to move?</style>\r\n\r\n\r\n<sprite name=\"GuideMoveUp\"><sprite name=\"GuideMoveRight\">\r\n<sprite
+      name=\"GuideMoveLeft\"><sprite name=\"GuideMoveDown\">\r\n\r\n<page><size=0.7em><align=center>\xAB
+      We always must be moving towards something, you will see,\r\nFor without it,
+      we're stuck, and we will not become free... \xBB</align>\r\n\r\nEnter the following
+      commands in the terminal to see how the knight moves.\r\n<#001891>Steps</color>
+      are integer values, such as <#001891>1, 2, 3, 5, 10.</color>\r\n\r\n<style=\"Command\"><color=black>Knight</color>.MoveUp(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveRight(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveLeft(<#001891>steps</color>)</style>\r\n<style=\"Command\"><color=black>Knight</color>.MoveDown(<#001891>steps</color>)</style>"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h1\">\u041A\u043D\u0438\u0433\u0430 \u0437\u043D\u0430\u043D\u0438\u0439</style>\r\n\r\n\r\n\r\n<style=\"h3\">\u0410\u0432\u0442\u043E\u0440:</style>\r\n\r\n<u><align=center>\u0421\u044D\u0440
+      \u0412\u0430\u043D\u0442 \u0420\u0438\u0444\u043C\u043E\u043F\u043B\u0451\u0442</align></u>\r\n\r\n<page><size=0.8em><align=center>\xAB
+      \u0412\u043E \u043C\u0440\u0430\u043A\u0435 \u0441\u043A\u043E\u0432\u0430\u043D,
+      \u0441\u0432\u0435\u0442 \u043F\u043E\u0433\u0430\u0441,\r\n\u0421\u043F\u0430\u0441\u0438\u0442\u0435\u043B\u044C
+      \u043D\u0435 \u043F\u0440\u0438\u0434\u0451\u0442 \u0432 \u0441\u0435\u0439
+      \u0447\u0430\u0441.\r\n\u0417\u0430\u0447\u0435\u043C, \u0413\u043E\u0441\u043F\u043E\u0434\u044C,
+      \u044F \u0437\u0434\u0435\u0441\u044C, \u0432\u043E \u0442\u044C\u043C\u0435,\r\n\u0412
+      \u0441\u043B\u0435\u0437\u0430\u0445, \u0432 \u0442\u043E\u0441\u043A\u0435,
+      \u0432 \u0433\u043B\u0443\u0445\u043E\u0439 \u0442\u044E\u0440\u044C\u043C\u0435?
+      \xBB</align>\r\n\r\n\u0427\u0435\u0440\u043D\u0438\u043B\u0430 \u0438 \u0431\u0443\u043C\u0430\u0433\u0430
+      \u0435\u0441\u0442\u044C \u2014 \u0438 \u044F \u0433\u043E\u0442\u043E\u0432,\r\n\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
+      \u043F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C \u043B\u0438\u0448\u044C
+      \u043F\u0430\u0440\u0443 \u0441\u043B\u043E\u0432...\n\r\n<sprite name=\"BookAndInk\">\r\n\r\n<page><style=\"h2\">\u0422\u0435\u0440\u043C\u0438\u043D\u0430\u043B?</style>\r\n\r\n<sprite=\"TerminalGuide\"
+      name=\"TerminalGuide\">\r\n\r\n<page><size=0.8em>\u0422\u0435\u0440\u043C\u0438\u043D\u0430\u043B
+      \u2014 \u044D\u0442\u043E \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442
+      \u0438\u0433\u0440\u044B. \u041E\u043D \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
+      \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0440\u044B\u0446\u0430\u0440\u0435\u043C,
+      \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0442\u044C
+      \u0443\u0440\u043E\u0432\u0435\u043D\u044C, \u0435\u0441\u043B\u0438 \u0447\u0442\u043E-\u0442\u043E
+      \u043F\u043E\u0448\u043B\u043E \u043D\u0435 \u0442\u0430\u043A, \u0438 \u0434\u0430\u0436\u0435
+      \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0442\u044C \u043A\u043D\u0438\u0433\u0443,
+      \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u0432\u044B \u0441\u0435\u0439\u0447\u0430\u0441
+      \u0447\u0438\u0442\u0430\u0435\u0442\u0435.\n\n\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+      \u0441\u0432\u043E\u0439 \u043A\u043E\u0434 \u0432 <u><b>Code Area</b></u>,
+      \u0437\u0430\u0442\u0435\u043C \u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u0435
+      \u0435\u0433\u043E, \u043D\u0430\u0436\u0430\u0432 \u043A\u043D\u043E\u043F\u043A\u0443
+      <u><b>Run Commands</b></u>. \u0412\u044B \u0443\u0432\u0438\u0434\u0438\u0442\u0435
+      \u043E\u0448\u0438\u0431\u043A\u0438, \u043F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0436\u0434\u0435\u043D\u0438\u044F
+      \u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u0432
+      <b><u>Output Area</b></u>. \u0415\u0441\u043B\u0438 \u0447\u0442\u043E-\u0442\u043E
+      \u043F\u043E\u0439\u0434\u0451\u0442 \u043D\u0435 \u0442\u0430\u043A, \u043D\u0435
+      \u0441\u0442\u0435\u0441\u043D\u044F\u0439\u0442\u0435\u0441\u044C \u043D\u0430\u0436\u0430\u0442\u044C
+      \u043A\u043D\u043E\u043F\u043A\u0443 <b><u>Restart Level</b></u>.\n</size>\n\r\n<page><style=\"h2\">\u041A\u0430\u043A
+      \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F?</style>\r\n\r\n\r\n<sprite
+      name=\"GuideMoveUp\"><sprite name=\"GuideMoveRight\">\r\n<sprite name=\"GuideMoveLeft\"><sprite
+      name=\"GuideMoveDown\">\r\n\r\n<page><size=0.7em><align=center>\xAB \u0412\u0441\u0435\u0433\u0434\u0430
+      \u043A \u0447\u0435\u043C\u0443-\u0442\u043E \u043D\u0430\u0434\u043E \u043D\u0430\u043C
+      \u0438\u0434\u0442\u0438,\r\n\u0411\u0435\u0437 \u0446\u0435\u043B\u0438 \u043D\u0430\u043C
+      \u0441\u0432\u043E\u0431\u043E\u0434\u044B \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+      \u043D\u0435 \u043E\u0431\u0440\u0435\u0441\u0442\u0438... \xBB</align>\r\n\r\n\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+      \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
+      \u0432 \u0442\u0435\u0440\u043C\u0438\u043D\u0430\u043B\u0435, \u0447\u0442\u043E\u0431\u044B
+      \u0443\u0432\u0438\u0434\u0435\u0442\u044C, \u043A\u0430\u043A \u0440\u044B\u0446\u0430\u0440\u044C
+      \u0434\u0432\u0438\u0436\u0435\u0442\u0441\u044F.\n<#001891>\u0413\u0434\u0435
+      \u0428\u0410\u0413\u0418</color> \u2014 \u043A\u043E\u043B-\u0432\u043E \u0448\u0430\u0433\u043E\u0432,
+      \u044D\u0442\u043E \u0446\u0435\u043B\u043E\u0447\u0438\u0441\u043B\u0435\u043D\u043D\u044B\u0435
+      \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440,
+      <#001891>1, 2, 3, 5, 10.</color>\n\n<style=\"Command\"><color=black>Knight</color>.MoveUp(<#001891>\u0428\u0410\u0413\u0418</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveRight(<#001891>\u0428\u0410\u0413\u0418</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveLeft(<#001891>\u0428\u0410\u0413\u0418</color>)</style>\n<style=\"Command\"><color=black>Knight</color>.MoveDown(<#001891>\u0428\u0410\u0413\u0418</color>)</style>"
+    Object: {fileID: 0}
+--- !u!1 &4078183786077877452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2881096298582614910}
+  - component: {fileID: 6675774069181831657}
+  m_Layer: 0
+  m_Name: storytellingLevel17Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2881096298582614910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4078183786077877452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6675774069181831657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4078183786077877452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "And one more bloodthirsty monster appears,\r\nRight there on your path
+      \u2014 to feed on your fears.\r..\n<page>The gnash of its teeth cuts the ear
+      like a knife,\r\nAnd it sees with the malice of its single eye\u2019s strife"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0410\u0445 \u0432\u043E\u0442 \u0435\u0449\u0451 \u0442\u0432\u0430\u0440\u044C
+      \u2014 \u043A\u0440\u043E\u0432\u043E\u0436\u0430\u0434\u043D\u0435\u0439,
+      \u0441\u0442\u0440\u0430\u0448\u043D\u0435\u0439,\n\u041F\u0435\u0440\u0435\u043A\u0440\u044B\u043B\u0430
+      \u0432\u0430\u043C \u043F\u0443\u0442\u044C \u0441\u0440\u0435\u0434\u044C
+      \u043F\u043E\u0434\u0437\u0435\u043C\u043D\u044B\u0445 \u0442\u0435\u043D\u0435\u0439...\n<page>\u0421\u043A\u0440\u0435\u0436\u0435\u0442
+      \u043A\u043B\u044B\u043A\u043E\u0432 \u0440\u0435\u0436\u0435\u0442 \u0441\u043B\u0443\u0445,
+      \u043A\u0430\u043A \u043A\u043B\u0438\u043D\u043E\u043A,\n\u0418 \u0432\u0433\u043B\u044F\u0434\u043E\u043C
+      \u043F\u0440\u043E\u043D\u0437\u0430\u0435\u0442, \u043A\u0430\u043A \u0441\u043C\u0435\u0440\u0442\u0438
+      \u043D\u0430\u043C\u0451\u043A"
+    Object: {fileID: 0}
+--- !u!1 &4167789123902972438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7221850086309357167}
+  - component: {fileID: 8754550500324154848}
+  m_Layer: 0
+  m_Name: TerminalOnPlayerDeath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7221850086309357167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4167789123902972438}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8754550500324154848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4167789123902972438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> ==========================
+
+      > The knight''s soul left him
+
+      >
+      Try to start all over again...'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> ==========================\n> \u0414\u0443\u0448\u0430 \u0440\u044B\u0446\u0430\u0440\u044F
+      \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E \u043F\u043E\u043A\u0438\u043D\u0443\u043B\u0430
+      \u0442\u0435\u043B\u043E\n> \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+      \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E..."
+    Object: {fileID: 0}
+--- !u!1 &4270082053475184971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8882209406806386287}
+  - component: {fileID: 7580056409927156640}
+  m_Layer: 0
+  m_Name: backBtnText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8882209406806386287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270082053475184971}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7580056409927156640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270082053475184971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Back
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041D\u0430\u0437\u0430\u0434"
+    Object: {fileID: 0}
+--- !u!1 &4450729588739562243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1004349804911021917}
+  - component: {fileID: 2016265335539600028}
+  m_Layer: 0
+  m_Name: DirectionLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1004349804911021917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4450729588739562243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016265335539600028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4450729588739562243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: left
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0432\u043B\u0435\u0432\u043E"
+    Object: {fileID: 0}
+--- !u!1 &4469249211319601961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3618808766765329212}
+  - component: {fileID: 8951597790512960878}
+  m_Layer: 0
+  m_Name: TerminalErrMaxStepCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3618808766765329212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4469249211319601961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8951597790512960878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4469249211319601961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Step count cannot exceed {0}
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041A\u043E\u043B-\u0432\u043E \u0448\u0430\u0433\u043E\u0432 \u043D\u0435
+      \u043C\u043E\u0436\u0435\u0442 \u043F\u0440\u0435\u0432\u044B\u0448\u0430\u0442\u044C
+      {0}"
+    Object: {fileID: 0}
+--- !u!1 &4499854706850966587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6129741010216521759}
+  - component: {fileID: 8993902128459313280}
+  m_Layer: 0
+  m_Name: storytellerName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6129741010216521759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4499854706850966587}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8993902128459313280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4499854706850966587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Syntaxis the Magician
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041C\u0430\u0433\u0438\u0441\u0442\u0440 \u0421\u0438\u043D\u0442\u0430\u043A\u0441\u0438\u0441"
+    Object: {fileID: 0}
+--- !u!1 &4544493202329950174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179488989462324243}
+  - component: {fileID: 4942991900604204187}
+  m_Layer: 0
+  m_Name: TerminalStatusBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179488989462324243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544493202329950174}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4942991900604204187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544493202329950174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Block! Protect the hull urgently!
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0411\u043B\u043E\u043A! \u041A\u043E\u0440\u043F\u0443\u0441 \u043F\u043E\u0434
+      \u0437\u0430\u0449\u0438\u0442\u043E\u0439!"
+    Object: {fileID: 0}
+--- !u!1 &4998494764241542105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5701860543774793378}
+  - component: {fileID: 6534082884680526812}
+  m_Layer: 0
+  m_Name: menuExitToMainMenuBtnText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5701860543774793378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4998494764241542105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6534082884680526812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4998494764241542105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "\u0412\u044B\u0439\u0442\u0438 \u0432 \u043C\u0435\u043D\u044E"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Exit to main menu
+    Object: {fileID: 0}
+--- !u!1 &5070578380939509162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5945027780215532341}
+  - component: {fileID: 3420650338036559603}
+  m_Layer: 0
+  m_Name: currentLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5945027780215532341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5070578380939509162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3420650338036559603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5070578380939509162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Level
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    Object: {fileID: 0}
+--- !u!1 &5281976002843605736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801482020660090424}
+  - component: {fileID: 2047409641219265383}
+  m_Layer: 0
+  m_Name: TerminalOnPlayerRanIntoObstacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801482020660090424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281976002843605736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2047409641219265383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281976002843605736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> ============================================
+
+      > The knight hit
+      his head hard on the obstacle
+
+      > He can no longer continue on his way
+
+      >
+      Try to start all over again...'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> ============================================\n> \u0420\u044B\u0446\u0430\u0440\u044C
+      \u0441\u0438\u043B\u044C\u043D\u043E \u0443\u0434\u0430\u0440\u0438\u043B\u0441\u044F
+      \u043E\u0431 \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u0435\n>
+      \u041E\u043D \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442
+      \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C \u0441\u0432\u043E\u0439
+      \u043F\u0443\u0442\u044C\n> \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+      \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E..."
+    Object: {fileID: 0}
+--- !u!1 &5411429256319717398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7958525100050769035}
+  - component: {fileID: 1551451060398733634}
+  m_Layer: 0
+  m_Name: TerminalScriptIsAlreadyExecuting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7958525100050769035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411429256319717398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1551451060398733634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411429256319717398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> Script is already executing!'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> \u0421\u0446\u0435\u043D\u0430\u0440\u0438\u0439 \u0443\u0436\u0435
+      \u0432\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F!"
+    Object: {fileID: 0}
+--- !u!1 &5437635397683368105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396728296024207330}
+  - component: {fileID: 9022145021157448335}
+  m_Layer: 0
+  m_Name: ashtorEnemyDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &396728296024207330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5437635397683368105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9022145021157448335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5437635397683368105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A demon guarding the exit from the dungeon. In its paws gleams a huge bloody
+      cleaver, bringing death to everyone
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0414\u0435\u043C\u043E\u043D. \u041E\u0445\u0440\u0430\u043D\u044F\u0435\u0442
+      \u0432\u044B\u0445\u043E\u0434 \u0438\u0437 \u043F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F.
+      \u0412 \u0435\u0433\u043E \u043B\u0430\u043F\u0430\u0445 \u0441\u0432\u0435\u0440\u043A\u0430\u0435\u0442
+      \u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u043E\u043A\u0440\u043E\u0432\u0430\u0432\u043B\u0435\u043D\u043D\u044B\u0439
+      \u0442\u0435\u0441\u0430\u043A, \u043D\u0435\u0441\u0443\u0449\u0438\u0439
+      \u0441\u043C\u0435\u0440\u0442\u044C \u0432\u0441\u0435\u043C \u0432\u043E\u043A\u0440\u0443\u0433"
+    Object: {fileID: 0}
+--- !u!1 &6156286300833232530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3623365835951453624}
+  - component: {fileID: 7981716876128524889}
+  m_Layer: 0
+  m_Name: DirectionRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3623365835951453624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6156286300833232530}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7981716876128524889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6156286300833232530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: right
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0432\u043F\u0440\u0430\u0432\u043E"
+    Object: {fileID: 0}
+--- !u!1 &6337481818629069941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6675605941771480056}
+  - component: {fileID: 9144873435134719020}
+  m_Layer: 0
+  m_Name: gnashwingEnemyDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6675605941771480056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6337481818629069941}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9144873435134719020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6337481818629069941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A one-eyed demon. He clearly wouldn't mind snacking on you
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041E\u0434\u043D\u043E\u0433\u043B\u0430\u0437\u044B\u0439 \u0434\u0435\u043C\u043E\u043D.
+      \u041E\u043D \u044F\u0432\u043D\u043E \u043D\u0435 \u043E\u0442\u043A\u0430\u0437\u0430\u043B\u0441\u044F
+      \u0431\u044B \u043F\u043E\u043B\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F
+      \u0442\u043E\u0431\u043E\u0439"
+    Object: {fileID: 0}
+--- !u!1 &6491220157419033400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3671417744009786175}
+  - component: {fileID: 302497754287647607}
+  m_Layer: 0
+  m_Name: bookContentLevel13Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3671417744009786175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491220157419033400}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302497754287647607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491220157419033400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '<style="h2">{slime_name}</style>
+
+
+
+      <sprite="Book_Content_Sprite_Asset_2"
+      name="SlimePortrait">
+
+
+
+      <page>
+
+      <style="h3">Health: <style="Health">{slime_health}</style></style>
+
+      <style="h3">Damage:
+      <style="Damage">{slime_damage}</style></style>
+
+
+
+      <size=1em>{slime_desc}</size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h2\">{slime_name}</style>\n\n\n<sprite=\"Book_Content_Sprite_Asset_2\"
+      name=\"SlimePortrait\">\n\n\n<page>\n<style=\"h3\">\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435:
+      <style=\"Health\">{slime_health}</style></style>\n<style=\"h3\">\u0423\u0440\u043E\u043D:
+      <style=\"Damage\">{slime_damage}</style></style>\n\n\n<size=1em>{slime_desc}</size>"
+    Object: {fileID: 0}
+--- !u!1 &6582113527209130212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6143288209695620562}
+  - component: {fileID: 1903434528855281903}
+  m_Layer: 0
+  m_Name: quitToMenuWarningText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6143288209695620562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6582113527209130212}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1903434528855281903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6582113527209130212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Are you sure you want to exit to the main menu?
+
+
+      <size=0.8em><color=red>level
+      progress will be lost</color></size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u044B \u0443\u0432\u0435\u0440\u0435\u043D\u044B, \u0447\u0442\u043E
+      \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438
+      \u0432 \u0433\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E?\n\n<size=0.8em><color=red>\u041F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+      \u0442\u0435\u043A\u0443\u0449\u0435\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0431\u0443\u0434\u0435\u0442 \u0443\u0442\u0435\u0440\u044F\u043D</color></size>"
+    Object: {fileID: 0}
+--- !u!1 &6595574846381021798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4229559929168526334}
+  - component: {fileID: 3801554188678127728}
+  m_Layer: 0
+  m_Name: youDied
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229559929168526334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6595574846381021798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3801554188678127728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6595574846381021798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: You Died
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u043C\u0435\u0440\u0442\u044C"
+    Object: {fileID: 0}
+--- !u!1 &6845393605991313687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1164645840287968122}
+  - component: {fileID: 4329383920567016992}
+  m_Layer: 0
+  m_Name: quitGameWarningText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1164645840287968122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845393605991313687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4329383920567016992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845393605991313687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Are you sure you want to exit the game now?
+
+
+      <size=0.8em><color=red>level
+      progress will be lost</color></size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u044B \u0443\u0432\u0435\u0440\u0435\u043D\u044B, \u0447\u0442\u043E
+      \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438
+      \u0438\u0437 \u0438\u0433\u0440\u044B \u043F\u0440\u044F\u043C\u043E \u0441\u0435\u0439\u0447\u0430\u0441?\n\n<size=0.8em><color=red>\u041F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+      \u0442\u0435\u043A\u0443\u0449\u0435\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0431\u0443\u0434\u0435\u0442 \u0443\u0442\u0435\u0440\u044F\u043D</color></size>"
+    Object: {fileID: 0}
+--- !u!1 &6994266411965537865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930255703797571810}
+  - component: {fileID: 2546760749345157085}
+  m_Layer: 0
+  m_Name: ashtorEnemyName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930255703797571810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994266411965537865}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2546760749345157085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994266411965537865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Ashtor
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u042D\u0448\u0442\u043E\u0440"
+    Object: {fileID: 0}
+--- !u!1 &7213379797094613163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5072713525064728114}
+  - component: {fileID: 2377700100710993288}
+  m_Layer: 0
+  m_Name: skeletonEnemyName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5072713525064728114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213379797094613163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2377700100710993288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213379797094613163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Skeleton
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u043A\u0435\u043B\u0435\u0442"
+    Object: {fileID: 0}
+--- !u!1 &7244514867335581085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7667932394596014685}
+  - component: {fileID: 4919134461291496842}
+  m_Layer: 0
+  m_Name: slimeEnemyDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7667932394596014685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244514867335581085}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4919134461291496842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244514867335581085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A stinking clot... ugh, just disgusting
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u043E\u043D\u044E\u0447\u0438\u0439 \u0441\u0433\u0443\u0441\u0442\u043E\u043A
+      \u043A\u0440\u043E\u0432\u0438... \u0444\u0443, \u043F\u0440\u043E\u0441\u0442\u043E
+      \u043E\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u0435\u043B\u044C\u043D\u043E"
+    Object: {fileID: 0}
+--- !u!1 &7282715463425786137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8052638779303296266}
+  - component: {fileID: 8515798169292264261}
+  m_Layer: 0
+  m_Name: storytellingLevel1Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8052638779303296266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282715463425786137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8515798169292264261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282715463425786137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Once, lost on his path, far from heaven''s clear ray,
+
+      A wandering
+      knight, bolder far than the fray,
+
+      <page>Strayed into a fortress deep
+      under the ground,
+
+      Where sunlight had perished, and silence was crowned.
+
+      <page>And
+      suddenly creak tore the air behind,
+
+      The gates shut at once and the light
+      went blind
+
+      <page>The knight then perceived he''d been captured within,
+
+      He''ll
+      have to break through darkness for light to begin...'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041E\u0434\u043D\u0430\u0436\u0434\u044B \u0437\u0430\u0431\u0440\u0451\u043B
+      \u043F\u043E \u043E\u0448\u0438\u0431\u043A\u0435 \u0441\u0432\u043E\u0435\u0439,\n\u0411\u043B\u0443\u0436\u0434\u0430\u044E\u0449\u0438\u0439
+      \u0440\u044B\u0446\u0430\u0440\u044C, \u0434\u0440\u0443\u0433\u0438\u0445
+      \u0432\u0441\u0435\u0445 \u0441\u043C\u0435\u043B\u0435\u0439,\n<page>\u0412
+      \u043F\u043E\u0434\u0437\u0435\u043C\u043D\u0443\u044E \u043A\u0440\u0435\u043F\u043E\u0441\u0442\u044C,
+      \u0433\u0434\u0435 \u0441\u0432\u0435\u0442 \u043D\u0435 \u043F\u0440\u043E\u043D\u0438\u043A\n\u0413\u0434\u0435
+      \u043C\u0451\u0440\u0442\u0432\u044B\u0435 \u0441\u0442\u0435\u043D\u044B \u0445\u0440\u0430\u043D\u044F\u0442
+      \u043D\u0435\u043C\u043E\u0439 \u043B\u0438\u043A...\n<page>\u0418 \u0432\u0434\u0440\u0443\u0433
+      \u0437\u0430 \u0441\u043F\u0438\u043D\u043E\u0439 \u0441\u0442\u0440\u0430\u0448\u043D\u044B\u0439
+      \u0441\u043A\u0440\u0438\u043F \u043F\u0440\u043E\u0437\u0432\u0443\u0447\u0430\u043B,\r\n\u0412\u0440\u0430\u0442\u0430
+      \u0432\u0434\u0440\u0443\u0433 \u0437\u0430\u043A\u0440\u044B\u043B\u0438\u0441\u044C
+      \u0438 \u0441\u0432\u0435\u0442 \u0437\u0430\u043C\u043E\u043B\u0447\u0430\u043B,\r\n<page>\u0422\u0443\u0442
+      \u043F\u043E\u043D\u044F\u043B \u0440\u044B\u0446\u0430\u0440\u044C - \u043F\u043E\u043F\u0430\u043B
+      \u043E\u043D \u0432 \u0431\u0435\u0434\u0443,\r\n\u041F\u0440\u0438\u0434\u0451\u0442\u0441\u044F
+      \u043F\u0440\u043E\u0440\u044B\u0432\u0430\u0442\u044C\u0441\u044F \u043A \u0441\u0432\u0435\u0442\u0443
+      \u0447\u0435\u0440\u0435\u0437 \u0442\u0435\u043C\u043D\u043E\u0442\u0443"
+    Object: {fileID: 0}
+--- !u!1 &7352051954214967778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9217065653794316881}
+  - component: {fileID: 2189597669233190237}
+  m_Layer: 0
+  m_Name: TerminalStatusMove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9217065653794316881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352051954214967778}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2189597669233190237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352051954214967778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Knight moves {0} {1} step(s)
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0420\u044B\u0446\u0430\u0440\u044C \u0434\u0435\u043B\u0430\u0435\u0442
+      {1} \u0448\u0430\u0433(\u043E\u0432) {0}"
+    Object: {fileID: 0}
+--- !u!1 &7510114041315342484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8019074093383737682}
+  - component: {fileID: 716269091582949827}
+  m_Layer: 0
+  m_Name: playBtnText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8019074093383737682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510114041315342484}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716269091582949827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510114041315342484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Play
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
+    Object: {fileID: 0}
+--- !u!1 &7602169571416456869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7474346344976218721}
+  - component: {fileID: 1100872576348645405}
+  m_Layer: 0
+  m_Name: TerminalErrMinStepCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7474346344976218721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602169571416456869}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100872576348645405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602169571416456869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Step count must be at least {0}
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041A\u043E\u043B-\u0432\u043E \u0448\u0430\u0433\u043E\u0432 \u0434\u043E\u043B\u0436\u043D\u043E
+      \u0431\u044B\u0442\u044C \u043C\u0438\u043D\u0438\u043C\u0443\u043C {0}"
+    Object: {fileID: 0}
+--- !u!1 &8206003099433593080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4742006158827015291}
+  - component: {fileID: 6244001687260544503}
+  m_Layer: 0
+  m_Name: slimeEnemyName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4742006158827015291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206003099433593080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6244001687260544503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206003099433593080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Slime
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u043B\u0438\u0437\u043D\u044F\u043A"
+    Object: {fileID: 0}
+--- !u!1 &8334546306388640836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4825827306163599810}
+  - component: {fileID: 8846385742102012686}
+  m_Layer: 0
+  m_Name: storytellingLevel19Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825827306163599810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8334546306388640836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8846385742102012686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8334546306388640836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The light draws near, so near salvation,
+
+      Can you feel it? The scent
+      of liberation...
+
+      <page>Now open these heavy, unyielding doors wide,
+
+      Let
+      the sun blind your eyes with its dazzling pride!'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u0432\u0435\u0442 \u0431\u043B\u0438\u0437\u043A\u043E, \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u0435
+      \u2014 \u0432\u043E\u0442 \u043E\u043D\u043E, \u0440\u044F\u0434\u043E\u043C,\r\n\u041D\u0435
+      \u0447\u0443\u0435\u0448\u044C \u043B\u0438 \u0437\u0430\u043F\u0430\u0445
+      \u0441\u0432\u043E\u0431\u043E\u0434\u044B \u043F\u0440\u0438\u044F\u0442\u043D\u044B\u0439?\r\n<page>\u0414\u0432\u0435\u0440\u0438
+      \u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u043E\u0442\u043A\u0440\u043E\u0439
+      \u0434\u043E \u043A\u043E\u043D\u0446\u0430,\r\n\u041F\u0443\u0441\u0442\u044C
+      \u0441\u0432\u0435\u0442\u043E\u043C \u0441\u043B\u0435\u043F\u044F\u0449\u0438\u043C
+      \u043D\u0430\u043F\u043E\u043B\u043D\u044F\u0442\u0441\u044F \u0433\u043B\u0430\u0437\u0430!"
+    Object: {fileID: 0}
+--- !u!1 &8722298590803914566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4115702924411053761}
+  - component: {fileID: 6701387890237989886}
+  m_Layer: 0
+  m_Name: vampireEnemyDesc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4115702924411053761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8722298590803914566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6701387890237989886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8722298590803914566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A fanged monster. Much more dangerous than a mosquito
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041A\u043B\u044B\u043A\u0430\u0441\u0442\u043E\u0435 \u0447\u0443\u0434\u043E\u0432\u0438\u0449\u0435.
+      \u0415\u0433\u043E \u0443\u043A\u0443\u0441 \u0433\u043E\u0440\u0430\u0437\u0434\u043E
+      \u043E\u043F\u0430\u0441\u043D\u0435\u0435 \u043A\u043E\u043C\u0430\u0440\u0438\u043D\u043D\u043E\u0433\u043E"
+    Object: {fileID: 0}
+--- !u!1 &8842094483109024819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2550015025328301422}
+  - component: {fileID: 9047224976275715744}
+  m_Layer: 0
+  m_Name: newEntryNotificationText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2550015025328301422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8842094483109024819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9047224976275715744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8842094483109024819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: <color=green>A new entry has been added to <sprite="KnowledgeBookClosed"
+      name="KnowledgeBookClosed">
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<color=green>\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C
+      \u0431\u044B\u043B\u0430 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430
+      \u0432 <sprite=\"KnowledgeBookClosed\" name=\"KnowledgeBookClosed\">"
+    Object: {fileID: 0}
+--- !u!1 &8857643366021687369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8302601667247859259}
+  - component: {fileID: 3490651921126259722}
+  m_Layer: 0
+  m_Name: finalStoryText1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8302601667247859259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857643366021687369}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3490651921126259722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857643366021687369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Having fought his way through hordes of bloodthirsty dungeon dwellers,
+      the knight defeated the demon Ashtor and found a way out
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u041F\u0440\u043E\u0431\u0438\u0432\u0448\u0438\u0441\u044C \u0441\u043A\u0432\u043E\u0437\u044C
+      \u043F\u043E\u043B\u0447\u0438\u0449\u0430 \u043A\u0440\u043E\u0432\u043E\u0436\u0430\u0434\u043D\u044B\u0445
+      \u043E\u0431\u0438\u0442\u0430\u0442\u0435\u043B\u0435\u0439 \u043F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u044C\u044F,
+      \u0440\u044B\u0446\u0430\u0440\u044C \u043F\u043E\u0431\u0435\u0434\u0438\u043B
+      \u0434\u0435\u043C\u043E\u043D\u0430 \u042D\u0448\u0442\u043E\u0440\u0430 \u0438
+      \u0441\u043C\u043E\u0433 \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+      \u0438\u0437 \u043F\u043E\u0434\u0437\u0435\u043C\u0435\u043B\u0438\u0439"
+    Object: {fileID: 0}
+--- !u!1 &8861673042528768129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3810568665808819628}
+  - component: {fileID: 645776400415476401}
+  m_Layer: 0
+  m_Name: bookContentLevel20Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3810568665808819628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861673042528768129}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &645776400415476401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861673042528768129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '<style="h2">{ashtor_name}</style>
+
+
+
+      <sprite="Book_Content_Sprite_Asset_2"
+      name="AshtorPortrait">
+
+
+
+      <page>
+
+      <style="h3">Health: <style="Health">{ashtor_health}</style></style>
+
+      <style="h3">Damage:
+      <style="Damage">{ashtor_damage}</style></style>
+
+
+
+      <size=1em>{ashtor_desc}</size>'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h2\">{ashtor_name}</style>\r\n\r\n<sprite=\"Book_Content_Sprite_Asset_2\"
+      name=\"AshtorPortrait\">\r\n\r\n<page>\r\n<style=\"h3\">\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435:
+      <style=\"Health\">{ashtor_health}</style></style>\r\n<style=\"h3\">\u0423\u0440\u043E\u043D:
+      <style=\"Damage\">{ashtor_damage}</style></style>\r\n\r\n<size=1em>{ashtor_desc}</size>"
+    Object: {fileID: 0}
+--- !u!1 &8864733494839633991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2838365117587585518}
+  - component: {fileID: 1521056870112599454}
+  m_Layer: 0
+  m_Name: bookContentLevel4Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2838365117587585518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864733494839633991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1521056870112599454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864733494839633991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "<style=\"h2\">How to attack?</style>\r\n\r\n<sprite name=\"GuideAttack\">\r\n\r\n<page><size=0.7em><align=center>\xAB
+      One, two, three, four, five, six, seven,\r\nI will crush all foes, by heaven!
+      \xBB</align>\r\n\r\nEnter the following commands in the terminal to crush the
+      enemy in your path.\r\n\r\n<style=\"Command\"><color=black>Knight</color>.Attack()</style>\r\n\r\n<page><style=\"h2\">How
+      to block?</style>\r\n\r\n<sprite name=\"GuideBlock\">\r\n\r\n<page><size=0.7em><align=center>\xAB
+      I need no shield \u2014 that useless stuff,\r\nWith my own blade, I'll block
+      enough! \xBB</align>\r\n\r\nEnter the following commands in the terminal to
+      repel an enemy attack.\r\n\r\n<style=\"Command\"><color=black>Knight</color>.Block()</style>\r\n\r\n<page><style=\"h1\">Dungearium</style>\r\n\r\n<style=\"h4\">Description
+      of the creatures that live down here (very dangerous)</style>\r\n\r\n<size=0.7em><align=center>\xAB
+      All kinds of beasts dwell down below,\r\nNo guests they expected, that's for
+      sure.\r\nDangerous monsters have lived here along,\r\nI won't be their dinner
+      \u2014 I`m not tasty at all! \xBB</align>\r\n\r\n<page>\r\n<br>\r\n<br>\r\n<br>\r\n<style=\"h4\">Go
+      to next page -></style>\r\n\r\n<page><style=\"h2\">{skeleton_name}</style>\r\n\r\n<sprite
+      name=\"SkeletonPortrait\">\r\n\r\n<page>\r\n<style=\"h3\">Health: <style=\"Health\">{skeleton_health}</style></style>\r\n<style=\"h3\">Damage:
+      <style=\"Damage\">{skeleton_damage}</style></style>\r\n\r\n<size=1em>{skeleton_desc}</size>"
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "<style=\"h2\">\u041A\u0430\u043A \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C?</style>\r\n\r\n<sprite
+      name=\"GuideAttack\">\r\n\r\n<page><size=0.7em><align=center>\xAB \u0420\u0430\u0437,
+      \u0434\u0432\u0430, \u0442\u0440\u0438, \u0447\u0435\u0442\u044B\u0440\u0435,
+      \u043F\u044F\u0442\u044C...\n\u041C\u0435\u0440\u0442\u0432\u0435\u0446\u043E\u0432
+      \u043D\u0435 \u0441\u043E\u0441\u0447\u0438\u0442\u0430\u0442\u044C. \xBB</align>\r\n\r\n\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+      \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0443\u044E \u043A\u043E\u043C\u0430\u043D\u0434\u0443
+      \u0432 \u0442\u0435\u0440\u043C\u0438\u043D\u0430\u043B, \u0447\u0442\u043E\u0431\u044B
+      \u0441\u043E\u043A\u0440\u0443\u0448\u0438\u0442\u044C \u0432\u0440\u0430\u0433\u0430
+      \u043D\u0430 \u0441\u0432\u043E\u0435\u043C \u043F\u0443\u0442\u0438.\n\r\n<style=\"Command\"><color=black>Knight</color>.Attack()</style>\r\n\r\n<page><style=\"h2\">\u041A\u0430\u043A
+      \u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C?</style>\r\n\r\n<sprite
+      name=\"GuideBlock\">\r\n\r\n<page><size=0.7em><align=center>\xAB \u041D\u0435
+      \u043D\u0443\u0436\u0435\u043D \u0449\u0438\u0442 \u2014 \u043D\u0438\u043A\u0447\u0451\u043C\u043D\u044B\u0439
+      \u0445\u043B\u0430\u043C,\r\n\u0421\u0432\u043E\u0438\u043C \u043A\u043B\u0438\u043D\u043A\u043E\u043C
+      \u044F \u043E\u0442\u043E\u0431\u044C\u044E \u0432\u0441\u0451 \u0441\u0430\u043C!
+      \xBB</align>\r\n\r\n\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0443\u044E
+      \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u0432 \u0442\u0435\u0440\u043C\u0438\u043D\u0430\u043B,
+      \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u0440\u0430\u0437\u0438\u0442\u044C
+      \u0430\u0442\u0430\u043A\u0443 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430.\n\r\n<style=\"Command\"><color=black>Knight</color>.Block()</style>\r\n\r\n<page><style=\"h1\">\u0422\u0435\u043C\u043D\u0438\u0430\u0440\u0438\u0439</style>\r\n\r\n<style=\"h4\">\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435
+      \u0442\u0432\u0430\u0440\u0435\u0439, \u043E\u0431\u0438\u0442\u0430\u044E\u0449\u0438\u0445
+      \u0437\u0434\u0435\u0441\u044C (\u043E\u0447\u0435\u043D\u044C \u043E\u043F\u0430\u0441\u043D\u044B\u0435)</style>\r\n\r\n<size=0.7em><align=center>\xAB
+      \u041C\u043E\u043D\u0441\u0442\u0440\u044B \u0432\u0441\u0435\u0445 \u0432\u0438\u0434\u043E\u0432
+      \u0432\u043D\u0438\u0437\u0443 \u043E\u0431\u0438\u0442\u0430\u044E\u0442,\r\n\u0413\u043E\u0441\u0442\u0435\u0439
+      \u043E\u043D\u0438 \u044F\u0432\u043D\u043E \u0442\u0443\u0442 \u043D\u0435
+      \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u044E\u0442,\r\n\u0418 \u043B\u044E\u0431\u044F\u0442
+      \u043E\u043D\u0438 \u0437\u0430\u043A\u0443\u0441\u0438\u0442\u044C \u043A\u043E\u0435-\u043A\u0435\u043C,\r\n\u041D\u043E
+      \u044F \u043D\u0435 \u043E\u0431\u0435\u0434 \u2014 \u044F \u043D\u0435 \u0432\u043A\u0443\u0441\u043D\u044B\u0439
+      \u0441\u043E\u0432\u0441\u0435\u043C! \xBB</align>\r\n\r\n<page>\r\n<br>\r\n<br>\r\n<br>\r\n<style=\"h4\">\u041A
+      \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435
+      -></style>\r\n\r\n<page><style=\"h2\">{skeleton_name}</style>\r\n\r\n<sprite
+      name=\"SkeletonPortrait\">\r\n\r\n<page>\r\n<style=\"h3\">\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435:
+      <style=\"Health\">{skeleton_health}</style></style>\r\n<style=\"h3\">\u0423\u0440\u043E\u043D:
+      <style=\"Damage\">{skeleton_damage}</style></style>\r\n\r\n<size=1em>{skeleton_desc}</size>"
+    Object: {fileID: 0}
+--- !u!1 &8973048014193680900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4587520606996939198}
+  - component: {fileID: 8846239340687029073}
+  m_Layer: 0
+  m_Name: storytellingLevel13Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4587520606996939198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973048014193680900}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8846239340687029073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973048014193680900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "A slimy thing, a fetid smell,\r\nTakes any form, a lying shell.\n<page>One
+      snap \u2014 no echo and no yell\r\nYou're meat. You're done, sir, farewell."
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0421\u043A\u043E\u043B\u044C\u0437\u043A\u0430\u044F \u0433\u0430\u0434\u0438\u043D\u0430,
+      \u0437\u0430\u043F\u0430\u0445 \u0433\u043D\u0438\u043B\u043E\u0439,\n\u0424\u043E\u0440\u043C\u0443
+      \u0438 \u043E\u0431\u043B\u0438\u043A \u043E\u043D \u043F\u0440\u0438\u043C\u0435\u0442
+      \u043B\u044E\u0431\u043E\u0439.\n<page>\u041F\u0440\u043E\u0433\u043B\u043E\u0442\u0438\u0442
+      \u0442\u0435\u0431\u044F \u043D\u0438 \u043E\u0441\u0442\u0430\u0432\u0438\u0432
+      \u0441\u043B\u0435\u0434\u0430\n\u0418 \u0432 \u0431\u0435\u0437\u0434\u043D\u0435
+      \u0442\u0432\u043E\u0439 \u0441\u043B\u0435\u0434 \u0437\u0430\u043C\u0435\u0442\u0451\u0442
+      \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430."
+    Object: {fileID: 0}
+--- !u!1 &9020342615063578328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4393830844942536919}
+  - component: {fileID: 3701077368005842676}
+  m_Layer: 0
+  m_Name: quitBtnText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4393830844942536919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020342615063578328}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3701077368005842676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020342615063578328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Quit
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0412\u044B\u0439\u0442\u0438 \u0438\u0437 \u0438\u0433\u0440\u044B"
+    Object: {fileID: 0}
+--- !u!1 &9074403595345901469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488604735760136605}
+  - component: {fileID: 1577582137560948198}
+  m_Layer: 0
+  m_Name: TerminalNoValidCommands
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488604735760136605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074403595345901469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577582137560948198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074403595345901469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '> No valid commands found!'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "> \u0421\u0446\u0435\u043D\u0430\u0440\u0438\u0439 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F
+      \u043D\u0435 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D!"
+    Object: {fileID: 0}
+--- !u!1 &9192185479728175054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7086012727723887514}
+  - component: {fileID: 2529285766159018570}
+  m_Layer: 0
+  m_Name: DirectionDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7086012727723887514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192185479728175054}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6467622604386458961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2529285766159018570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192185479728175054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: down
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u0432\u043D\u0438\u0437"
+    Object: {fileID: 0}
+--- !u!1001 &2486521433126758526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6467622604386458961}
+    m_Modifications:
+    - target: {fileID: 765358623864573794, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_Name
+      value: English
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+--- !u!4 &4012943417847141888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+  m_PrefabInstance: {fileID: 2486521433126758526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7931128755016164052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6467622604386458961}
+    m_Modifications:
+    - target: {fileID: 765358623864573794, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_Name
+      value: Russian
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+--- !u!4 &8872152029941783722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: adef00e2be323654ca5fa825a2cc3c72, type: 3}
+  m_PrefabInstance: {fileID: 7931128755016164052}
+  m_PrefabAsset: {fileID: 0}
