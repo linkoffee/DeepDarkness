@@ -237,10 +237,13 @@ MonoBehaviour:
   attackCollider: {fileID: 5750563549687623557}
   takeDamageCollider: {fileID: 1477826431124641514}
   attackDamage: 1
-  attackCooldown: 2
+  attackCooldown: 1.5
   blockCooldown: 2
   takeDamageSfx: PlayerTakeDamage
   dieSfx: PlayerDie
+  blockMovementTags:
+  - Wall
+  - Enemy
 --- !u!1 &2807773615250545742
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +372,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.004843712, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
