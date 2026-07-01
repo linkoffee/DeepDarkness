@@ -1,6 +1,8 @@
 using TMPro;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Localization;
+using DD.Utils;
 using System.Text.RegularExpressions;
 
 public class VarTagProcessor : MonoBehaviour, ITextPreprocessor
@@ -19,6 +21,26 @@ public class VarTagProcessor : MonoBehaviour, ITextPreprocessor
         LoadVars();
     }
 
+    private void OnEnable()
+    {
+        LeanLocalization.OnLocalizationChanged += OnLanguageChanged;
+    }
+
+    private void OnDisable()
+    {
+        LeanLocalization.OnLocalizationChanged -= OnLanguageChanged;
+    }
+
+    private void OnLanguageChanged()
+    {
+        LoadVars();
+
+        var tmpText = GetComponent<TMP_Text>();
+
+        if (tmpText != null && !string.IsNullOrEmpty(tmpText.text))
+            tmpText.ForceMeshUpdate();
+    }
+
     public void LoadVars()
     {
         foreach (var enemy in enemies)
@@ -27,8 +49,8 @@ public class VarTagProcessor : MonoBehaviour, ITextPreprocessor
 
             string enemyName = enemy.EnemyData.name.ToLower();
 
-            vars[$"{enemyName}_name"] = enemy.EnemyData?.name.ToString();
-            vars[$"{enemyName}_desc"] = enemy.EnemyData?.description.ToString();
+            vars[$"{enemyName}_name"] = GetLocalizedEnemyData(enemy.EnemyData, "name");
+            vars[$"{enemyName}_desc"] = GetLocalizedEnemyData(enemy.EnemyData, "desc");
             vars[$"{enemyName}_health"] = enemy.EnemyData?.health.ToString();
             vars[$"{enemyName}_damage"] = enemy.EnemyData?.attackDamage.ToString();
         }
@@ -51,5 +73,23 @@ public class VarTagProcessor : MonoBehaviour, ITextPreprocessor
         });
 
         return processedText;
+    }
+
+    private string GetLocalizedEnemyData(EnemySO data, string fieldName)
+    {
+        string translationName = $"{data.name.ToLower()}Enemy{fieldName.FirstCharToUpper()}";
+        string localizedText = LeanLocalization.GetTranslationText(translationName);
+
+        if (!string.IsNullOrEmpty(localizedText))
+            return localizedText;
+
+        string fallbackText = fieldName switch
+        {
+            "name" => data.name,
+            "desc" => data.description,
+            _ => ""
+        };
+
+        return fallbackText;
     }
 }
