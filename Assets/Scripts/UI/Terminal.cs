@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using DD.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,7 +62,7 @@ public class Terminal : MonoBehaviour
     {
         if (_isExecuting)
         {
-            AddLogOutput("> Script is already executing!", LogOutputType.Warning);
+            AddLocalizedLogOutput("TerminalScriptIsAlreadyExecuting", LogOutputType.Warning);
             return;
         }
 
@@ -83,7 +84,7 @@ public class Terminal : MonoBehaviour
 
                 if (command == null)
                 {
-                    AddLogOutput($"> Skipped: {trimmedCommand} - Unknown command", LogOutputType.Warning);
+                    AddLocalizedLogOutput("TerminalUnknownCommand", LogOutputType.Warning, trimmedCommand);
                     continue;
                 }
 
@@ -91,7 +92,7 @@ public class Terminal : MonoBehaviour
                 if (IsCommandValid(command, out errMsg))
                     _commands.Enqueue(command);
                 else
-                    AddLogOutput($"> Skipped: {trimmedCommand} - {errMsg}", LogOutputType.Warning);
+                    AddLocalizedLogOutput("TerminalInvalidCommand", LogOutputType.Warning, trimmedCommand, errMsg);
             }
 
             if (_commands.Count > 0)
@@ -101,7 +102,7 @@ public class Terminal : MonoBehaviour
             }
             else
             {
-                AddLogOutput("> No valid commands found!", LogOutputType.Error);
+                AddLocalizedLogOutput("TerminalNoValidCommands", LogOutputType.Error);
             }
         }
     }
@@ -121,30 +122,27 @@ public class Terminal : MonoBehaviour
         knowledgeBookButton.interactable = false;
         executeButton.interactable = false;
 
-        AddLogOutput("> ==========================");
-        AddLogOutput("> The knight's soul left him");
-        AddLogOutput("> Try to start all over again...");
+        AddLocalizedLogOutput("TerminalOnPlayerDeath");
     }
 
     private void OnPlayerRanIntoObstacle()
     {
+        _isExecuting = false;
+
         inputField.interactable = false;
         knowledgeBookButton.interactable = false;
         executeButton.interactable = false;
 
-        AddLogOutput("> ============================================");
-        AddLogOutput("> The knight hit his head hard on the obstacle");
-        AddLogOutput("> He can no longer continue on his way");
-        AddLogOutput("> Try to start all over again...");
+        AddLocalizedLogOutput("TerminalOnPlayerRanIntoObstacle");
     }
 
     private string GetCommandDescription(Command command)
     {
         return command switch
         {
-            MoveCommand move => $"Knight moves {move.Direction} {move.StepCount} step(s)",
-            AttackCommand => "Attack! The enemy will be crushed!",
-            BlockCommand => "Block! Protect the hull urgently!",
+            MoveCommand move => Localizator.GetLocalizedText("TerminalStatusMove", move.GetLocalizedDirection(), move.StepCount),
+            AttackCommand => Localizator.GetLocalizedText("TerminalStatusAttack"),
+            BlockCommand => Localizator.GetLocalizedText("TerminalStatusBlock"),
             _ => command.GetType().Name
         };
     }
@@ -160,6 +158,12 @@ public class Terminal : MonoBehaviour
         };
 
         logOutputText.text += $"<color=#{ColorUtility.ToHtmlStringRGB(textColor)}>{text}</color>\n";
+    }
+
+    private void AddLocalizedLogOutput(string translationName, LogOutputType logOutputType = LogOutputType.Info, params object[] args)
+    {
+        string localizedText = Localizator.GetLocalizedText(translationName, args);
+        AddLogOutput(localizedText, logOutputType);
     }
 
     private IEnumerator ExecuteNext()
