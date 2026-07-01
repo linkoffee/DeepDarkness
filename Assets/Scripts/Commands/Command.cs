@@ -1,6 +1,14 @@
-﻿public abstract class Command
+﻿using DD.Utils;
+
+public abstract class Command
 {
     public abstract void Execute(Player player);
+
+    public virtual bool IsValid(out string errMsg)
+    {
+        errMsg = null;
+        return true;
+    }
 }
 
 public class MoveCommand : Command
@@ -11,7 +19,6 @@ public class MoveCommand : Command
     private const int MinStepCount = 1;
     private const int MaxStepCount = 32;
 
-    public string Direction => _direction;
     public int StepCount => _stepCount;
 
     public MoveCommand(string direction, int stepCount)
@@ -31,21 +38,33 @@ public class MoveCommand : Command
         }
     }
 
-    public bool IsValid(out string errMsg)
+    public override bool IsValid(out string errMsg)
     {
         if (_stepCount < MinStepCount)
         {
-            errMsg = $"Step count must be at least {MinStepCount}";
+            errMsg = Localizator.GetLocalizedText("TerminalErrMinStepCount", MinStepCount);
             return false;
         }
         else if (_stepCount > MaxStepCount)
         {
-            errMsg = $"Step count cannot exceed {MaxStepCount}";
+            errMsg = Localizator.GetLocalizedText("TerminalErrMaxStepCount", MaxStepCount);
             return false;
         }
 
         errMsg = null;
         return true;
+    }
+
+    public string GetLocalizedDirection()
+    {
+        return _direction.ToLower() switch
+        {
+            "up" => Localizator.GetLocalizedText("DirectionUp"),
+            "down" => Localizator.GetLocalizedText("DirectionDown"),
+            "left" => Localizator.GetLocalizedText("DirectionLeft"),
+            "right" => Localizator.GetLocalizedText("DirectionRight"),
+            _ => _direction
+        };
     }
 }
 
