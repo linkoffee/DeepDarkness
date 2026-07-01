@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Lean.Localization;
 using UnityEngine;
 
 [Serializable]
@@ -7,6 +8,7 @@ public struct BookContentData
 {
     public string content;
     public string contentIds;
+    public string translationNames;
 }
 
 public class BookData : MonoBehaviour
@@ -30,6 +32,7 @@ public class BookData : MonoBehaviour
 
     private string _content;
     private HashSet<string> addedContentIds = new HashSet<string>();
+    private List<string> translationNames = new List<string>();
 
     private void Awake()
     {
@@ -42,6 +45,13 @@ public class BookData : MonoBehaviour
         _instance = this;
         DontDestroyOnLoad(gameObject);
         LoadData();
+
+        LeanLocalization.OnLocalizationChanged += OnLanguageChanged;
+    }
+
+    private void OnDestroy()
+    {
+        LeanLocalization.OnLocalizationChanged -= OnLanguageChanged;
     }
 
     public string GetContent() => _content;
@@ -50,6 +60,7 @@ public class BookData : MonoBehaviour
     {
         _content = newContent;
         addedContentIds.Clear();
+        translationNames.Clear();
         SaveData();
     }
 
@@ -74,9 +85,47 @@ public class BookData : MonoBehaviour
         SaveData();
     }
 
+    public void AddLocalizedContent(string translationName, string contentId)
+    {
+        if (!string.IsNullOrEmpty(contentId) && addedContentIds.Contains(contentId))
+            return;
+
+        translationNames.Add(translationName);
+
+        if (!string.IsNullOrEmpty(contentId))
+            addedContentIds.Add(contentId);
+
+        SaveData();
+        RebuildContent();
+    }
+
     public void ClearContent()
     {
         SetContent("");
+    }
+
+    private void OnLanguageChanged() => RebuildContent();
+
+    private void RebuildContent()
+    {
+        if (translationNames.Count == 0)
+            return;
+
+        for (int i = 0; i < translationNames.Count; i++)
+        {
+            string name = translationNames[i];
+            string localizedText = LeanLocalization.GetTranslationText(name);
+
+            if (string.IsNullOrEmpty(localizedText))
+                localizedText = name;
+
+            if (i == 0)
+                _content = localizedText;
+            else
+                _content += "\n<page>" + localizedText;
+        }
+
+        BookContent.FindOrCreateInstance()?.LoadContentFromData();
     }
 
     private void SaveData()
@@ -84,7 +133,8 @@ public class BookData : MonoBehaviour
         BookContentData data = new BookContentData
         {
             content = _content,
-            contentIds = string.Join(",", addedContentIds)
+            contentIds = string.Join(",", addedContentIds),
+            translationNames = string.Join(",", translationNames)
         };
         SaveManager.Save(SaveKey, data);
     }
@@ -103,6 +153,19 @@ public class BookData : MonoBehaviour
                 if (!string.IsNullOrEmpty(id))
                     addedContentIds.Add(id);
             }
+        }
+
+        if (!string.IsNullOrEmpty(data.translationNames))
+        {
+            translationNames.Clear();
+            string[] names = data.translationNames.Split(",");
+            foreach(string name in names)
+            {
+                if (!string.IsNullOrEmpty(name))
+                    translationNames.Add(name);
+            }
+
+            RebuildContent();
         }
     }
 }
