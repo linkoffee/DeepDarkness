@@ -44,6 +44,8 @@ public class MenuLayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (FinishLevelPoint.Instance.IsTransitioning) return;
+
             if (_isVisible)
                 Hide();
             else
