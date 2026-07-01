@@ -1,27 +1,28 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 
-
-public class Converter
+namespace DD.Utils
 {
-    public static string ToRoman(int number)
+    public class Converter
     {
-        if (number < 1 || number > 3999)
-            return "Too Big Number to Convert. Must be in scope (1-3999)";
-
-        int[] numberValues = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
-        string[] romanSymbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-
-        System.Text.StringBuilder result = new System.Text.StringBuilder();
-
-        for (int i = 0; i < numberValues.Length; i++)
+        public static string ToRoman(int number)
         {
-            while (number >= numberValues[i])
+            if (number < 1 || number > 3999)
+                return "Too Big Number to Convert. Must be in scope (1-3999)";
+
+            int[] numberValues = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+            string[] romanSymbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+            StringBuilder result = new StringBuilder();
+
+            for (int i = 0; i < numberValues.Length; i++)
             {
-                number -= numberValues[i];
-                result.Append(romanSymbols[i]);
+                while (number >= numberValues[i])
+                {
+                    number -= numberValues[i];
+                    result.Append(romanSymbols[i]);
+                }
             }
+            return result.ToString();
         }
-        return result.ToString();
     }
 }
