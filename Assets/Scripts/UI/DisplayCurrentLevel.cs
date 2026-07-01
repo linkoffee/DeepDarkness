@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using Lean.Localization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +9,6 @@ public class DisplayCurrentLevel : MonoBehaviour
 
     private void Start()
     {
-        currentLevel.text = "Level " + SceneManager.GetActiveScene().buildIndex.ToString();
+        currentLevel.text = LeanLocalization.GetTranslationText("currentLevel") + " " + SceneManager.GetActiveScene().buildIndex.ToString();
     }
 }
