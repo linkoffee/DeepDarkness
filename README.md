@@ -23,4 +23,4 @@ Author: [Mikhail Kopochinskiy](https://github.com/linkoffee)
 
 All assets were taken from [itch.io](https://itch.io/):
 - `Art`: [pix.ollie](https://pixollie.itch.io/) | [Pixel-Poem](https://pixel-poem.itch.io/) | [LuizMelo](https://luizmelo.itch.io/) | [Chierit](https://chierit.itch.io/) | [Snoblin](https://snoblin.itch.io/)
-- `Music & Sfx`: [Shononoki](https://shononoki.itch.io/) | [Freesound](https://freesound.org/) | [Marek](https://chimera-forge-productions.itch.io/)
+- `Music & Sfx`: [Kashdan Music](https://kashdanmusic.itch.io/) | [Freesound](https://freesound.org/) | [Marek](https://chimera-forge-productions.itch.io/)
